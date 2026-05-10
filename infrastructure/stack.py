@@ -2,6 +2,7 @@ from aws_cdk import (
     Stack,
     aws_s3 as s3,
     aws_iam as iam,
+    aws_opensearchserverless as oss,
     RemovalPolicy,
     CfnOutput
 )
@@ -13,8 +14,6 @@ class MultiAgentStack(Stack):
         super().__init__(scope, construct_id, **kwargs)
 
         # ── S3 BUCKET ──────────────────────────────────────────────
-        # This is where all research documents live
-        # Bedrock Knowledge Base will read from here
         self.documents_bucket = s3.Bucket(
             self,
             "DocumentsBucket",
@@ -25,8 +24,6 @@ class MultiAgentStack(Stack):
         )
 
         # ── IAM ROLE FOR BEDROCK ───────────────────────────────────
-        # Gives Bedrock permission to read from S3
-        # Without this role, Bedrock cannot touch your bucket
         self.bedrock_role = iam.Role(
             self,
             "BedrockRole",
@@ -37,9 +34,31 @@ class MultiAgentStack(Stack):
         # Grant Bedrock read access to the bucket
         self.documents_bucket.grant_read(self.bedrock_role)
 
+        # Grant Bedrock full access to OpenSearch Serverless
+        self.bedrock_role.add_to_policy(iam.PolicyStatement(
+            effect=iam.Effect.ALLOW,
+            actions=[
+                "aoss:APIAccessAll",
+                "aoss:List*",
+                "aoss:Get*",
+                "aoss:Create*",
+                "aoss:Update*",
+                "aoss:Delete*",
+                "aoss:BatchGet*",
+            ],
+            resources=["*"]
+        ))
+
+        # Grant Bedrock Knowledge Base permissions
+        self.bedrock_role.add_to_policy(iam.PolicyStatement(
+            effect=iam.Effect.ALLOW,
+            actions=[
+                "bedrock:*",
+            ],
+            resources=["*"]
+        ))
+
         # ── OUTPUTS ───────────────────────────────────────────────
-        # These print your bucket name and role ARN after deployment
-        # You'll need these values in later phases
         CfnOutput(self, "BucketName",
             value=self.documents_bucket.bucket_name,
             description="S3 bucket for research documents"

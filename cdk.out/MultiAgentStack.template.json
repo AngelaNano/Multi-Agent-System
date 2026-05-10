@@ -228,6 +228,24 @@
          ]
         }
        ]
+      },
+      {
+       "Action": [
+        "aoss:APIAccessAll",
+        "aoss:List*",
+        "aoss:Get*",
+        "aoss:Create*",
+        "aoss:Update*",
+        "aoss:Delete*",
+        "aoss:BatchGet*"
+       ],
+       "Effect": "Allow",
+       "Resource": "*"
+      },
+      {
+       "Action": "bedrock:*",
+       "Effect": "Allow",
+       "Resource": "*"
       }
      ],
      "Version": "2012-10-17"
