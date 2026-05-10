@@ -16,16 +16,31 @@
         }
       }
     },
-    "725737cecc1de7fc40bae9cc9912bdac3251fc3b2b3effe3c31996e93b43066e": {
+    "5c5e1526c7160f0e849c09fffda39653a2ba211de095fca8f84f88fbaae4a02d": {
+      "displayName": "ResearchTool/Code",
+      "source": {
+        "path": "asset.5c5e1526c7160f0e849c09fffda39653a2ba211de095fca8f84f88fbaae4a02d",
+        "packaging": "zip"
+      },
+      "destinations": {
+        "current_account-us-east-1-ae566158": {
+          "bucketName": "cdk-hnb659fds-assets-${AWS::AccountId}-us-east-1",
+          "objectKey": "5c5e1526c7160f0e849c09fffda39653a2ba211de095fca8f84f88fbaae4a02d.zip",
+          "region": "us-east-1",
+          "assumeRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-file-publishing-role-${AWS::AccountId}-us-east-1"
+        }
+      }
+    },
+    "82713436b6a15e425dc6fcac0f8b25feb9e01113b0e923eb6d6ca678b1fa772e": {
       "displayName": "MultiAgentStack Template",
       "source": {
         "path": "MultiAgentStack.template.json",
         "packaging": "file"
       },
       "destinations": {
-        "current_account-us-east-1-cb4518cd": {
+        "current_account-us-east-1-8c4df848": {
           "bucketName": "cdk-hnb659fds-assets-${AWS::AccountId}-us-east-1",
-          "objectKey": "725737cecc1de7fc40bae9cc9912bdac3251fc3b2b3effe3c31996e93b43066e.json",
+          "objectKey": "82713436b6a15e425dc6fcac0f8b25feb9e01113b0e923eb6d6ca678b1fa772e.json",
           "region": "us-east-1",
           "assumeRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-file-publishing-role-${AWS::AccountId}-us-east-1"
         }
