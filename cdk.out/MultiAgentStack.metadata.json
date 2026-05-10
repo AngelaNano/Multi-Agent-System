@@ -1,0 +1,251 @@
+{
+  "/MultiAgentStack": [
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "Kernel._Kernel_create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmp0jbza_1m/lib/program.js:1:61273)",
+        "Kernel.create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmp0jbza_1m/lib/program.js:1:52004)",
+        "KernelHost.processRequest (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmp0jbza_1m/lib/program.js:1:212888)",
+        "KernelHost.run (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmp0jbza_1m/lib/program.js:1:211943)",
+        "Immediate._onImmediate (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmp0jbza_1m/lib/program.js:1:211987)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/MultiAgentStack/Custom::S3AutoDeleteObjectsCustomResourceProvider": [
+    {
+      "type": "aws:cdk:is-custom-resource-handler-customResourceProvider",
+      "data": true
+    }
+  ],
+  "/MultiAgentStack/BucketName": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "BucketName"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "Kernel._Kernel_create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmp0jbza_1m/lib/program.js:1:61273)",
+        "Kernel.create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmp0jbza_1m/lib/program.js:1:52004)",
+        "KernelHost.processRequest (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmp0jbza_1m/lib/program.js:1:212888)",
+        "KernelHost.run (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmp0jbza_1m/lib/program.js:1:211943)",
+        "Immediate._onImmediate (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmp0jbza_1m/lib/program.js:1:211987)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/MultiAgentStack/BedrockRoleArn": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "BedrockRoleArn"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "Kernel._Kernel_create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmp0jbza_1m/lib/program.js:1:61273)",
+        "Kernel.create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmp0jbza_1m/lib/program.js:1:52004)",
+        "KernelHost.processRequest (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmp0jbza_1m/lib/program.js:1:212888)",
+        "KernelHost.run (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmp0jbza_1m/lib/program.js:1:211943)",
+        "Immediate._onImmediate (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmp0jbza_1m/lib/program.js:1:211987)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/MultiAgentStack/BootstrapVersion": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "BootstrapVersion"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...App.synth in aws-cdk-lib...",
+        "/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmp0jbza_1m/lib/program.js:1:543 (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmp0jbza_1m/lib/program.js:1:5434)",
+        "Kernel._Kernel_ensureSync (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmp0jbza_1m/lib/program.js:1:69992)",
+        "Kernel.invoke (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmp0jbza_1m/lib/program.js:1:54294)",
+        "KernelHost.processRequest (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmp0jbza_1m/lib/program.js:1:212888)",
+        "KernelHost.run (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmp0jbza_1m/lib/program.js:1:211943)",
+        "Immediate._onImmediate (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmp0jbza_1m/lib/program.js:1:211987)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/MultiAgentStack/CheckBootstrapVersion": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CheckBootstrapVersion"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...App.synth in aws-cdk-lib...",
+        "/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmp0jbza_1m/lib/program.js:1:543 (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmp0jbza_1m/lib/program.js:1:5434)",
+        "Kernel._Kernel_ensureSync (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmp0jbza_1m/lib/program.js:1:69992)",
+        "Kernel.invoke (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmp0jbza_1m/lib/program.js:1:54294)",
+        "KernelHost.processRequest (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmp0jbza_1m/lib/program.js:1:212888)",
+        "KernelHost.run (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmp0jbza_1m/lib/program.js:1:211943)",
+        "Immediate._onImmediate (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmp0jbza_1m/lib/program.js:1:211987)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/MultiAgentStack/DocumentsBucket/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "DocumentsBucket9EC9DEB9"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new Bucket2 in aws-cdk-lib...",
+        "Kernel._Kernel_create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmp0jbza_1m/lib/program.js:1:61273)",
+        "Kernel.create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmp0jbza_1m/lib/program.js:1:52004)",
+        "KernelHost.processRequest (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmp0jbza_1m/lib/program.js:1:212888)",
+        "KernelHost.run (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmp0jbza_1m/lib/program.js:1:211943)",
+        "Immediate._onImmediate (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmp0jbza_1m/lib/program.js:1:211987)",
+        "...node internals..."
+      ]
+    },
+    {
+      "type": "aws:cdk:analytics:mixin",
+      "data": {
+        "mixin": "aws-cdk-lib.aws_s3.mixins.BucketAutoDeleteObjects"
+      }
+    }
+  ],
+  "/MultiAgentStack/Custom::S3AutoDeleteObjectsCustomResourceProvider/Role": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CustomS3AutoDeleteObjectsCustomResourceProviderRole3B1BD092"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new Bucket2 in aws-cdk-lib...",
+        "Kernel._Kernel_create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmp0jbza_1m/lib/program.js:1:61273)",
+        "Kernel.create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmp0jbza_1m/lib/program.js:1:52004)",
+        "KernelHost.processRequest (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmp0jbza_1m/lib/program.js:1:212888)",
+        "KernelHost.run (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmp0jbza_1m/lib/program.js:1:211943)",
+        "Immediate._onImmediate (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmp0jbza_1m/lib/program.js:1:211987)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/MultiAgentStack/Custom::S3AutoDeleteObjectsCustomResourceProvider/Handler": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CustomS3AutoDeleteObjectsCustomResourceProviderHandler9D90184F"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new Bucket2 in aws-cdk-lib...",
+        "Kernel._Kernel_create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmp0jbza_1m/lib/program.js:1:61273)",
+        "Kernel.create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmp0jbza_1m/lib/program.js:1:52004)",
+        "KernelHost.processRequest (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmp0jbza_1m/lib/program.js:1:212888)",
+        "KernelHost.run (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmp0jbza_1m/lib/program.js:1:211943)",
+        "Immediate._onImmediate (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmp0jbza_1m/lib/program.js:1:211987)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/MultiAgentStack/BedrockRole/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "BedrockRole12677E9A"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new Role2 in aws-cdk-lib...",
+        "Kernel._Kernel_create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmp0jbza_1m/lib/program.js:1:61273)",
+        "Kernel.create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmp0jbza_1m/lib/program.js:1:52004)",
+        "KernelHost.processRequest (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmp0jbza_1m/lib/program.js:1:212888)",
+        "KernelHost.run (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmp0jbza_1m/lib/program.js:1:211943)",
+        "Immediate._onImmediate (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmp0jbza_1m/lib/program.js:1:211987)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/MultiAgentStack/CDKMetadata/Default": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CDKMetadata"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...App.synth in aws-cdk-lib...",
+        "/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmp0jbza_1m/lib/program.js:1:543 (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmp0jbza_1m/lib/program.js:1:5434)",
+        "Kernel._Kernel_ensureSync (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmp0jbza_1m/lib/program.js:1:69992)",
+        "Kernel.invoke (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmp0jbza_1m/lib/program.js:1:54294)",
+        "KernelHost.processRequest (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmp0jbza_1m/lib/program.js:1:212888)",
+        "KernelHost.run (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmp0jbza_1m/lib/program.js:1:211943)",
+        "Immediate._onImmediate (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmp0jbza_1m/lib/program.js:1:211987)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/MultiAgentStack/DocumentsBucket/Policy/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "DocumentsBucketPolicy1F991BD4"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new Bucket2 in aws-cdk-lib...",
+        "Kernel._Kernel_create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmp0jbza_1m/lib/program.js:1:61273)",
+        "Kernel.create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmp0jbza_1m/lib/program.js:1:52004)",
+        "KernelHost.processRequest (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmp0jbza_1m/lib/program.js:1:212888)",
+        "KernelHost.run (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmp0jbza_1m/lib/program.js:1:211943)",
+        "Immediate._onImmediate (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmp0jbza_1m/lib/program.js:1:211987)",
+        "...node internals..."
+      ]
+    },
+    {
+      "type": "aws:cdk:analytics:mixin",
+      "data": {
+        "mixin": "aws-cdk-lib.aws_s3.mixins.BucketPolicyStatements"
+      }
+    }
+  ],
+  "/MultiAgentStack/DocumentsBucket/AutoDeleteObjectsCustomResource/Default": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "DocumentsBucketAutoDeleteObjectsCustomResourceFE3123FC"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new Bucket2 in aws-cdk-lib...",
+        "Kernel._Kernel_create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmp0jbza_1m/lib/program.js:1:61273)",
+        "Kernel.create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmp0jbza_1m/lib/program.js:1:52004)",
+        "KernelHost.processRequest (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmp0jbza_1m/lib/program.js:1:212888)",
+        "KernelHost.run (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmp0jbza_1m/lib/program.js:1:211943)",
+        "Immediate._onImmediate (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmp0jbza_1m/lib/program.js:1:211987)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/MultiAgentStack/BedrockRole/DefaultPolicy/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "BedrockRoleDefaultPolicyD80A9626"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...WrappedClass.grantRead in aws-cdk-lib...",
+        "/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmp0jbza_1m/lib/program.js:1:543 (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmp0jbza_1m/lib/program.js:1:5434)",
+        "Kernel._Kernel_ensureSync (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmp0jbza_1m/lib/program.js:1:69992)",
+        "Kernel.invoke (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmp0jbza_1m/lib/program.js:1:54294)",
+        "KernelHost.processRequest (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmp0jbza_1m/lib/program.js:1:212888)",
+        "KernelHost.run (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmp0jbza_1m/lib/program.js:1:211943)",
+        "Immediate._onImmediate (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmp0jbza_1m/lib/program.js:1:211987)",
+        "...node internals..."
+      ]
+    }
+  ]
+}

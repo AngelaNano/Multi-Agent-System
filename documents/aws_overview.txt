@@ -1,0 +1,1 @@
+Amazon Web Services provides cloud computing services including compute, storage, and AI services. AWS Bedrock is a fully managed service that makes foundation models available via an API. It supports models from Anthropic, Amazon, and other providers for building generative AI applications.

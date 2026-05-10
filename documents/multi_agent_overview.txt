@@ -1,0 +1,1 @@
+Multi-agent systems consist of multiple AI agents that collaborate to solve complex tasks. Each agent specializes in a specific role such as research, analysis, or writing. Agents communicate through a shared memory or message passing system coordinated by an orchestrator.

@@ -1,0 +1,1 @@
+Artificial intelligence is transforming industries including healthcare, finance, and legal services. Machine learning models can process vast amounts of data to identify patterns and make predictions. Deep learning, a subset of machine learning, uses neural networks with many layers to solve complex problems.
