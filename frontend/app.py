@@ -17,6 +17,7 @@ API_URL = "http://localhost:8000"
 st.title("🤖 Multi-Agent Research System")
 st.markdown("*Powered by AWS Bedrock Agents + Step Functions + DynamoDB*")
 st.divider()
+st.info("🌐 Live Demo Mode — Backend runs locally. Clone the repo and run FastAPI to enable full functionality.")
 
 # ── SIDEBAR ───────────────────────────────────────────────────────
 with st.sidebar:
@@ -91,6 +92,7 @@ with tab1:
     if 'execution_arn' in st.session_state:
         st.divider()
         st.subheader(f"Pipeline Status: {st.session_state.get('topic', '')}")
+        
         
         status_placeholder = st.empty()
         progress_placeholder = st.empty()
