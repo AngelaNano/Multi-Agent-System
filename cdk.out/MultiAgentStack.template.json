@@ -173,6 +173,38 @@
     "aws:asset:property": "Code"
    }
   },
+  "SessionsTable7C302024": {
+   "Type": "AWS::DynamoDB::Table",
+   "Properties": {
+    "AttributeDefinitions": [
+     {
+      "AttributeName": "session_id",
+      "AttributeType": "S"
+     },
+     {
+      "AttributeName": "timestamp",
+      "AttributeType": "S"
+     }
+    ],
+    "BillingMode": "PAY_PER_REQUEST",
+    "KeySchema": [
+     {
+      "AttributeName": "session_id",
+      "KeyType": "HASH"
+     },
+     {
+      "AttributeName": "timestamp",
+      "KeyType": "RANGE"
+     }
+    ],
+    "TableName": "multi-agent-sessions"
+   },
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
+   "Metadata": {
+    "aws:cdk:path": "MultiAgentStack/SessionsTable/Resource"
+   }
+  },
   "BedrockRole12677E9A": {
    "Type": "AWS::IAM::Role",
    "Properties": {
@@ -288,6 +320,18 @@
         ":iam::aws:policy/service-role/AWSLambdaBasicExecutionRole"
        ]
       ]
+     },
+     {
+      "Fn::Join": [
+       "",
+       [
+        "arn:",
+        {
+         "Ref": "AWS::Partition"
+        },
+        ":iam::aws:policy/AWSMarketplaceFullAccess"
+       ]
+      ]
      }
     ]
    },
@@ -349,6 +393,44 @@
          ]
         }
        ]
+      },
+      {
+       "Action": [
+        "dynamodb:BatchGetItem",
+        "dynamodb:Query",
+        "dynamodb:GetItem",
+        "dynamodb:Scan",
+        "dynamodb:ConditionCheckItem",
+        "dynamodb:BatchWriteItem",
+        "dynamodb:PutItem",
+        "dynamodb:UpdateItem",
+        "dynamodb:DeleteItem",
+        "dynamodb:DescribeTable"
+       ],
+       "Effect": "Allow",
+       "Resource": [
+        {
+         "Fn::GetAtt": [
+          "SessionsTable7C302024",
+          "Arn"
+         ]
+        }
+       ]
+      },
+      {
+       "Action": [
+        "dynamodb:GetRecords",
+        "dynamodb:GetShardIterator"
+       ],
+       "Effect": "Allow",
+       "Resource": [
+        {
+         "Fn::GetAtt": [
+          "SessionsTable7C302024",
+          "Arn"
+         ]
+        }
+       ]
       }
      ],
      "Version": "2012-10-17"
@@ -371,7 +453,7 @@
      "S3Bucket": {
       "Fn::Sub": "cdk-hnb659fds-assets-${AWS::AccountId}-us-east-1"
      },
-     "S3Key": "2e25f326fa88dc0cdb4ab501df1eeb355fa973749f03daf898c20f29aa752148.zip"
+     "S3Key": "57c7f2483d504e98898c5c9213512213adddd5ecdbd6eafe6e7fce232150aeee.zip"
     },
     "Environment": {
      "Variables": {
@@ -394,7 +476,7 @@
    ],
    "Metadata": {
     "aws:cdk:path": "MultiAgentStack/ResearchTool/Resource",
-    "aws:asset:path": "asset.2e25f326fa88dc0cdb4ab501df1eeb355fa973749f03daf898c20f29aa752148",
+    "aws:asset:path": "asset.57c7f2483d504e98898c5c9213512213adddd5ecdbd6eafe6e7fce232150aeee",
     "aws:asset:is-bundled": false,
     "aws:asset:property": "Code"
    }
@@ -406,7 +488,7 @@
      "S3Bucket": {
       "Fn::Sub": "cdk-hnb659fds-assets-${AWS::AccountId}-us-east-1"
      },
-     "S3Key": "2e25f326fa88dc0cdb4ab501df1eeb355fa973749f03daf898c20f29aa752148.zip"
+     "S3Key": "57c7f2483d504e98898c5c9213512213adddd5ecdbd6eafe6e7fce232150aeee.zip"
     },
     "Environment": {
      "Variables": {
@@ -431,7 +513,7 @@
    ],
    "Metadata": {
     "aws:cdk:path": "MultiAgentStack/AnalysisTool/Resource",
-    "aws:asset:path": "asset.2e25f326fa88dc0cdb4ab501df1eeb355fa973749f03daf898c20f29aa752148",
+    "aws:asset:path": "asset.57c7f2483d504e98898c5c9213512213adddd5ecdbd6eafe6e7fce232150aeee",
     "aws:asset:is-bundled": false,
     "aws:asset:property": "Code"
    }
@@ -443,7 +525,7 @@
      "S3Bucket": {
       "Fn::Sub": "cdk-hnb659fds-assets-${AWS::AccountId}-us-east-1"
      },
-     "S3Key": "2e25f326fa88dc0cdb4ab501df1eeb355fa973749f03daf898c20f29aa752148.zip"
+     "S3Key": "57c7f2483d504e98898c5c9213512213adddd5ecdbd6eafe6e7fce232150aeee.zip"
     },
     "Environment": {
      "Variables": {
@@ -468,7 +550,7 @@
    ],
    "Metadata": {
     "aws:cdk:path": "MultiAgentStack/WriterTool/Resource",
-    "aws:asset:path": "asset.2e25f326fa88dc0cdb4ab501df1eeb355fa973749f03daf898c20f29aa752148",
+    "aws:asset:path": "asset.57c7f2483d504e98898c5c9213512213adddd5ecdbd6eafe6e7fce232150aeee",
     "aws:asset:is-bundled": false,
     "aws:asset:property": "Code"
    }
@@ -480,7 +562,7 @@
      "S3Bucket": {
       "Fn::Sub": "cdk-hnb659fds-assets-${AWS::AccountId}-us-east-1"
      },
-     "S3Key": "2e25f326fa88dc0cdb4ab501df1eeb355fa973749f03daf898c20f29aa752148.zip"
+     "S3Key": "57c7f2483d504e98898c5c9213512213adddd5ecdbd6eafe6e7fce232150aeee.zip"
     },
     "Environment": {
      "Variables": {
@@ -488,7 +570,11 @@
        "Ref": "DocumentsBucket9EC9DEB9"
       },
       "RESEARCH_AGENT_ID": "VTWZZYOS6N",
-      "RESEARCH_AGENT_ALIAS": "TSTALIASID"
+      "RESEARCH_AGENT_ALIAS": "TSTALIASID",
+      "KNOWLEDGE_BASE_ID": "LQXGE7QUHO",
+      "SESSIONS_TABLE": {
+       "Ref": "SessionsTable7C302024"
+      }
      }
     },
     "Handler": "orchestrator.handler",
@@ -507,7 +593,44 @@
    ],
    "Metadata": {
     "aws:cdk:path": "MultiAgentStack/Orchestrator/Resource",
-    "aws:asset:path": "asset.2e25f326fa88dc0cdb4ab501df1eeb355fa973749f03daf898c20f29aa752148",
+    "aws:asset:path": "asset.57c7f2483d504e98898c5c9213512213adddd5ecdbd6eafe6e7fce232150aeee",
+    "aws:asset:is-bundled": false,
+    "aws:asset:property": "Code"
+   }
+  },
+  "HITLApproval3D926C1D": {
+   "Type": "AWS::Lambda::Function",
+   "Properties": {
+    "Code": {
+     "S3Bucket": {
+      "Fn::Sub": "cdk-hnb659fds-assets-${AWS::AccountId}-us-east-1"
+     },
+     "S3Key": "57c7f2483d504e98898c5c9213512213adddd5ecdbd6eafe6e7fce232150aeee.zip"
+    },
+    "Environment": {
+     "Variables": {
+      "SESSIONS_TABLE": {
+       "Ref": "SessionsTable7C302024"
+      }
+     }
+    },
+    "Handler": "hitl.handler",
+    "Role": {
+     "Fn::GetAtt": [
+      "LambdaRole3A44B857",
+      "Arn"
+     ]
+    },
+    "Runtime": "python3.11",
+    "Timeout": 60
+   },
+   "DependsOn": [
+    "LambdaRoleDefaultPolicy75625A82",
+    "LambdaRole3A44B857"
+   ],
+   "Metadata": {
+    "aws:cdk:path": "MultiAgentStack/HITLApproval/Resource",
+    "aws:asset:path": "asset.57c7f2483d504e98898c5c9213512213adddd5ecdbd6eafe6e7fce232150aeee",
     "aws:asset:is-bundled": false,
     "aws:asset:property": "Code"
    }
@@ -562,6 +685,32 @@
          ]
         }
        ]
+      },
+      {
+       "Action": "lambda:InvokeFunction",
+       "Effect": "Allow",
+       "Resource": [
+        {
+         "Fn::GetAtt": [
+          "HITLApproval3D926C1D",
+          "Arn"
+         ]
+        },
+        {
+         "Fn::Join": [
+          "",
+          [
+           {
+            "Fn::GetAtt": [
+             "HITLApproval3D926C1D",
+             "Arn"
+            ]
+           },
+           ":*"
+          ]
+         ]
+        }
+       ]
       }
      ],
      "Version": "2012-10-17"
@@ -584,7 +733,7 @@
      "Fn::Join": [
       "",
       [
-       "{\"StartAt\":\"ResearchTask\",\"States\":{\"ResearchTask\":{\"Next\":\"WaitForApproval\",\"Retry\":[{\"ErrorEquals\":[\"Lambda.ClientExecutionTimeoutException\",\"Lambda.ServiceException\",\"Lambda.AWSLambdaException\",\"Lambda.SdkClientException\"],\"IntervalSeconds\":2,\"MaxAttempts\":6,\"BackoffRate\":2}],\"Type\":\"Task\",\"Comment\":\"Invoke research agent to gather information\",\"OutputPath\":\"$.Payload\",\"Resource\":\"arn:",
+       "{\"StartAt\":\"ResearchTask\",\"States\":{\"ResearchTask\":{\"Next\":\"HITLCheckpoint\",\"Retry\":[{\"ErrorEquals\":[\"Lambda.ClientExecutionTimeoutException\",\"Lambda.ServiceException\",\"Lambda.AWSLambdaException\",\"Lambda.SdkClientException\"],\"IntervalSeconds\":2,\"MaxAttempts\":6,\"BackoffRate\":2}],\"Type\":\"Task\",\"Comment\":\"Run research agent to gather information\",\"OutputPath\":\"$.Payload\",\"Resource\":\"arn:",
        {
         "Ref": "AWS::Partition"
        },
@@ -595,7 +744,18 @@
          "Arn"
         ]
        },
-       "\",\"Payload.$\":\"$\"}},\"WaitForApproval\":{\"Type\":\"Pass\",\"Comment\":\"Human in the loop checkpoint\",\"Next\":\"WorkflowComplete\"},\"WorkflowComplete\":{\"Type\":\"Succeed\",\"Comment\":\"Research report generated successfully\"}},\"TimeoutSeconds\":1800}"
+       "\",\"Payload.$\":\"$\"}},\"HITLCheckpoint\":{\"Next\":\"ApprovalDecision\",\"Retry\":[{\"ErrorEquals\":[\"Lambda.ClientExecutionTimeoutException\",\"Lambda.ServiceException\",\"Lambda.AWSLambdaException\",\"Lambda.SdkClientException\"],\"IntervalSeconds\":2,\"MaxAttempts\":6,\"BackoffRate\":2}],\"Type\":\"Task\",\"Comment\":\"Human in the loop approval checkpoint\",\"OutputPath\":\"$.Payload\",\"Resource\":\"arn:",
+       {
+        "Ref": "AWS::Partition"
+       },
+       ":states:::lambda:invoke\",\"Parameters\":{\"FunctionName\":\"",
+       {
+        "Fn::GetAtt": [
+         "HITLApproval3D926C1D",
+         "Arn"
+        ]
+       },
+       "\",\"Payload.$\":\"$\"}},\"ApprovalDecision\":{\"Type\":\"Choice\",\"Choices\":[{\"Variable\":\"$.approval_status\",\"StringEquals\":\"approved\",\"Next\":\"WorkflowComplete\"}],\"Default\":\"WorkflowRejected\"},\"WorkflowRejected\":{\"Type\":\"Fail\",\"Error\":\"HumanRejected\",\"Cause\":\"Human reviewer rejected the research\"},\"WorkflowComplete\":{\"Type\":\"Succeed\",\"Comment\":\"Research report generated and approved\"}},\"TimeoutSeconds\":1800}"
       ]
      ]
     },
@@ -620,7 +780,7 @@
   "CDKMetadata": {
    "Type": "AWS::CDK::Metadata",
    "Properties": {
-    "Analytics": "v2:deflate64:H4sIAAAAAAAA/5VPQW7CMBB8Czk7W4Wol96AqlKlVkTJsaoi4yxgktgou4Yiy3+vErcFjj3NrGZ2dnYO88ccspk8U6qaNu30BnzFUrVCnqn2lINfOtUii9XWRPbhk15/aZM8Jbdro59ymCSCaF04ts/YIeN6c0DFlIRPEaXCdlpdrqlx/kd2XKhYMvZobqOXkjAILXvwpe1wvDHh9WRkQXSy3zQS/IszirU1o/bLg6C8lkTIBIsRBDEetz8q1SypJXibEl7NybZ4bwBfSCJROaUQGzEVfZdqr83U6HYOQawcse1LJOsGFSv/8TupGOxJNziMT4qpV8Vyp81u3Fk7PjoOorjw3pqHHLIMstmBtE4HZ1j3CGXEb5C5LiH5AQAA"
+    "Analytics": "v2:deflate64:H4sIAAAAAAAA/5VQQW7CMBB8CzkvrkLUS29AhVSpFYj0VlXIcRZiktgou4Yiy3+vErclHHuaWc/seOyZmD1mIp3IC01VWU8bXQifs1Q1yAvtPGXCL5yqkWG5N5F9+KTVX9okT8l4rfdTJgaJRLTOHdtnbJBxXRxRMSXhE6K0sY1W11tqnP+RHRdylowtmnH0QhIGKK9GtrYshH+XRYP9TQMJoGUr/NbGswFvZSIL0Mi2KKXwK2cUa2t67ZcHoGwniZBJzHsAYjztf1TasaSaxOuQ8GLOtsZ7g/C5UwqxhJXUDSwrqxXC8JI3qSpthmLjOQRYOmLbbpGs61Rs/sfvpE1nz7rErv8FGOrlLA/aHGC8vHZ8chxgc+XKmodMpKlIJ0fSeto5w7pFsY34DS6Xg8UjAgAA"
    },
    "Metadata": {
     "aws:cdk:path": "MultiAgentStack/CDKMetadata/Default"
@@ -656,6 +816,12 @@
    "Description": "ARN of the Step Functions state machine",
    "Value": {
     "Ref": "ResearchStateMachine1BD6F160"
+   }
+  },
+  "SessionsTableName": {
+   "Description": "DynamoDB table for session persistence",
+   "Value": {
+    "Ref": "SessionsTable7C302024"
    }
   }
  },

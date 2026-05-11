@@ -5,6 +5,7 @@ from aws_cdk import (
     aws_lambda as lambda_,
     aws_stepfunctions as sfn,
     aws_stepfunctions_tasks as tasks,
+    aws_dynamodb as dynamodb,
     RemovalPolicy,
     CfnOutput,
     Duration
@@ -24,6 +25,25 @@ class MultiAgentStack(Stack):
             removal_policy=RemovalPolicy.DESTROY,
             auto_delete_objects=True,
             versioned=True,
+        )
+
+        # ── DYNAMODB TABLE ─────────────────────────────────────────
+        # Stores session state for each pipeline execution
+        # Enables HITL pause/resume without losing progress
+        self.sessions_table = dynamodb.Table(
+            self,
+            "SessionsTable",
+            table_name="multi-agent-sessions",
+            partition_key=dynamodb.Attribute(
+                name="session_id",
+                type=dynamodb.AttributeType.STRING
+            ),
+            sort_key=dynamodb.Attribute(
+                name="timestamp",
+                type=dynamodb.AttributeType.STRING
+            ),
+            removal_policy=RemovalPolicy.DESTROY,
+            billing_mode=dynamodb.BillingMode.PAY_PER_REQUEST,
         )
 
         # ── IAM ROLE FOR BEDROCK ───────────────────────────────────
@@ -64,6 +84,9 @@ class MultiAgentStack(Stack):
             managed_policies=[
                 iam.ManagedPolicy.from_aws_managed_policy_name(
                     "service-role/AWSLambdaBasicExecutionRole"
+                ),
+                iam.ManagedPolicy.from_aws_managed_policy_name(
+                    "AWSMarketplaceFullAccess"
                 )
             ]
         )
@@ -83,7 +106,9 @@ class MultiAgentStack(Stack):
             resources=["*"]
         ))
 
+        # Grant Lambda read/write access to S3 and DynamoDB
         self.documents_bucket.grant_read_write(self.lambda_role)
+        self.sessions_table.grant_read_write_data(self.lambda_role)
 
         # ── RESEARCH TOOL LAMBDA ───────────────────────────────────
         self.research_lambda = lambda_.Function(
@@ -139,42 +164,75 @@ class MultiAgentStack(Stack):
             environment={
                 "BUCKET_NAME": self.documents_bucket.bucket_name,
                 "RESEARCH_AGENT_ID": "VTWZZYOS6N",
-                "RESEARCH_AGENT_ALIAS": "TSTALIASID"
+                "RESEARCH_AGENT_ALIAS": "TSTALIASID",
+                "KNOWLEDGE_BASE_ID": "LQXGE7QUHO",
+                "SESSIONS_TABLE": self.sessions_table.table_name
+            }
+        )
+
+        # ── HITL APPROVAL LAMBDA ───────────────────────────────────
+        # This Lambda handles the human approval checkpoint
+        # It saves state to DynamoDB and waits for approval
+        self.hitl_lambda = lambda_.Function(
+            self,
+            "HITLApproval",
+            runtime=lambda_.Runtime.PYTHON_3_11,
+            handler="hitl.handler",
+            code=lambda_.Code.from_asset("lambda"),
+            role=self.lambda_role,
+            timeout=Duration.seconds(60),
+            environment={
+                "SESSIONS_TABLE": self.sessions_table.table_name
             }
         )
 
         # ── STEP FUNCTIONS STATE MACHINE ───────────────────────────
-        # Define each step as a Lambda invocation task
-        
         # Step 1: Research
         research_task = tasks.LambdaInvoke(
             self,
             "ResearchTask",
             lambda_function=self.orchestrator_lambda,
             output_path="$.Payload",
-            comment="Invoke research agent to gather information"
+            comment="Run research agent to gather information"
         )
 
-        # Step 2: Wait for human approval (HITL)
-        # This pauses the workflow and waits for a human to approve
-        wait_for_approval = sfn.Pass(
+        # Step 2: HITL Checkpoint
+        # Saves state to DynamoDB and pauses for human approval
+        hitl_task = tasks.LambdaInvoke(
             self,
-            "WaitForApproval",
-            comment="Human in the loop checkpoint"
+            "HITLCheckpoint",
+            lambda_function=self.hitl_lambda,
+            output_path="$.Payload",
+            comment="Human in the loop approval checkpoint"
         )
 
         # Step 3: Complete
         complete = sfn.Succeed(
             self,
             "WorkflowComplete",
-            comment="Research report generated successfully"
+            comment="Research report generated and approved"
         )
 
-        # Chain the steps together
-        # Research → Approval → Complete
-        definition = research_task.next(wait_for_approval).next(complete)
+        # Step 4: Rejected path
+        rejected = sfn.Fail(
+            self,
+            "WorkflowRejected",
+            cause="Human reviewer rejected the research",
+            error="HumanRejected"
+        )
 
-        # Create the state machine
+        # Approval choice — routes based on human decision
+        approval_choice = sfn.Choice(
+            self,
+            "ApprovalDecision"
+        ).when(
+            sfn.Condition.string_equals("$.approval_status", "approved"),
+            complete
+        ).otherwise(rejected)
+
+        # Chain: Research → HITL → Decision
+        definition = research_task.next(hitl_task).next(approval_choice)
+
         self.state_machine = sfn.StateMachine(
             self,
             "ResearchStateMachine",
@@ -202,4 +260,9 @@ class MultiAgentStack(Stack):
         CfnOutput(self, "StateMachineArn",
             value=self.state_machine.state_machine_arn,
             description="ARN of the Step Functions state machine"
+        )
+
+        CfnOutput(self, "SessionsTableName",
+            value=self.sessions_table.table_name,
+            description="DynamoDB table for session persistence"
         )
