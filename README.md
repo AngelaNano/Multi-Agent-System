@@ -32,6 +32,24 @@ HITL Approval Checkpoint (DynamoDB)
 ↓
 Report Delivered to User
 
+---
+
+## Screenshots
+
+### Research Pipeline — Live Demo
+![Pipeline](screenshots/screenshot_pipeline.png)
+
+### Generated Reports in S3
+![Reports](screenshots/screenshot_reports.png)
+
+### DynamoDB Session Checkpoints
+![Sessions](screenshots/screenshot_sessions.png)
+
+### CloudWatch Observability Dashboard
+![CloudWatch](screenshots/screenshot_cloudwatch.png)
+
+---
+
 ## Tech Stack
 
 | Layer | Technology |
