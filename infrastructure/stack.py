@@ -6,6 +6,7 @@ from aws_cdk import (
     aws_stepfunctions as sfn,
     aws_stepfunctions_tasks as tasks,
     aws_dynamodb as dynamodb,
+    aws_cloudwatch as cloudwatch,
     RemovalPolicy,
     CfnOutput,
     Duration
@@ -260,6 +261,72 @@ class MultiAgentStack(Stack):
         CfnOutput(self, "StateMachineArn",
             value=self.state_machine.state_machine_arn,
             description="ARN of the Step Functions state machine"
+        )
+
+        # ── CLOUDWATCH DASHBOARD ───────────────────────────────────
+        dashboard = cloudwatch.Dashboard(
+            self,
+            "MultiAgentDashboard",
+            dashboard_name="multi-agent-research-system"
+        )
+
+        dashboard.add_widgets(
+            cloudwatch.GraphWidget(
+                title="Step Functions Executions",
+                left=[
+                    self.state_machine.metric_started(
+                        period=Duration.minutes(5)
+                    ),
+                    self.state_machine.metric_succeeded(
+                        period=Duration.minutes(5)
+                    ),
+                    self.state_machine.metric_failed(
+                        period=Duration.minutes(5)
+                    ),
+                ],
+                width=12
+            ),
+            cloudwatch.GraphWidget(
+                title="Lambda Invocations",
+                left=[
+                    self.orchestrator_lambda.metric_invocations(
+                        period=Duration.minutes(5)
+                    ),
+                    self.research_lambda.metric_invocations(
+                        period=Duration.minutes(5)
+                    ),
+                ],
+                width=12
+            )
+        )
+
+        dashboard.add_widgets(
+            cloudwatch.GraphWidget(
+                title="Lambda Duration (ms)",
+                left=[
+                    self.orchestrator_lambda.metric_duration(
+                        period=Duration.minutes(5)
+                    ),
+                ],
+                width=12
+            ),
+            cloudwatch.GraphWidget(
+                title="Lambda Errors",
+                left=[
+                    self.orchestrator_lambda.metric_errors(
+                        period=Duration.minutes(5)
+                    ),
+                    self.research_lambda.metric_errors(
+                        period=Duration.minutes(5)
+                    ),
+                ],
+                width=12
+            )
+        )
+
+        CfnOutput(self, "DashboardUrl",
+            value=f"https://us-east-1.console.aws.amazon.com/cloudwatch/home?region=us-east-1#dashboards:name=multi-agent-research-system",
+            description="CloudWatch dashboard URL"
         )
 
         CfnOutput(self, "SessionsTableName",

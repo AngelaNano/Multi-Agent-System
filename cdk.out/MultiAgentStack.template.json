@@ -777,10 +777,75 @@
     "aws:cdk:path": "MultiAgentStack/ResearchStateMachine/Resource"
    }
   },
+  "MultiAgentDashboardA7BD7D21": {
+   "Type": "AWS::CloudWatch::Dashboard",
+   "Properties": {
+    "DashboardBody": {
+     "Fn::Join": [
+      "",
+      [
+       "{\"widgets\":[{\"type\":\"metric\",\"width\":12,\"height\":6,\"x\":0,\"y\":0,\"properties\":{\"view\":\"timeSeries\",\"title\":\"Step Functions Executions\",\"region\":\"",
+       {
+        "Ref": "AWS::Region"
+       },
+       "\",\"metrics\":[[\"AWS/States\",\"ExecutionsStarted\",\"StateMachineArn\",\"",
+       {
+        "Ref": "ResearchStateMachine1BD6F160"
+       },
+       "\",{\"stat\":\"Sum\"}],[\"AWS/States\",\"ExecutionsSucceeded\",\"StateMachineArn\",\"",
+       {
+        "Ref": "ResearchStateMachine1BD6F160"
+       },
+       "\",{\"stat\":\"Sum\"}],[\"AWS/States\",\"ExecutionsFailed\",\"StateMachineArn\",\"",
+       {
+        "Ref": "ResearchStateMachine1BD6F160"
+       },
+       "\",{\"stat\":\"Sum\"}]],\"yAxis\":{}}},{\"type\":\"metric\",\"width\":12,\"height\":6,\"x\":12,\"y\":0,\"properties\":{\"view\":\"timeSeries\",\"title\":\"Lambda Invocations\",\"region\":\"",
+       {
+        "Ref": "AWS::Region"
+       },
+       "\",\"metrics\":[[\"AWS/Lambda\",\"Invocations\",\"FunctionName\",\"",
+       {
+        "Ref": "Orchestrator6EF1216F"
+       },
+       "\",{\"stat\":\"Sum\"}],[\"AWS/Lambda\",\"Invocations\",\"FunctionName\",\"",
+       {
+        "Ref": "ResearchTool4367B047"
+       },
+       "\",{\"stat\":\"Sum\"}]],\"yAxis\":{}}},{\"type\":\"metric\",\"width\":12,\"height\":6,\"x\":0,\"y\":6,\"properties\":{\"view\":\"timeSeries\",\"title\":\"Lambda Duration (ms)\",\"region\":\"",
+       {
+        "Ref": "AWS::Region"
+       },
+       "\",\"metrics\":[[\"AWS/Lambda\",\"Duration\",\"FunctionName\",\"",
+       {
+        "Ref": "Orchestrator6EF1216F"
+       },
+       "\"]],\"yAxis\":{}}},{\"type\":\"metric\",\"width\":12,\"height\":6,\"x\":12,\"y\":6,\"properties\":{\"view\":\"timeSeries\",\"title\":\"Lambda Errors\",\"region\":\"",
+       {
+        "Ref": "AWS::Region"
+       },
+       "\",\"metrics\":[[\"AWS/Lambda\",\"Errors\",\"FunctionName\",\"",
+       {
+        "Ref": "Orchestrator6EF1216F"
+       },
+       "\",{\"stat\":\"Sum\"}],[\"AWS/Lambda\",\"Errors\",\"FunctionName\",\"",
+       {
+        "Ref": "ResearchTool4367B047"
+       },
+       "\",{\"stat\":\"Sum\"}]],\"yAxis\":{}}}]}"
+      ]
+     ]
+    },
+    "DashboardName": "multi-agent-research-system"
+   },
+   "Metadata": {
+    "aws:cdk:path": "MultiAgentStack/MultiAgentDashboard/Resource"
+   }
+  },
   "CDKMetadata": {
    "Type": "AWS::CDK::Metadata",
    "Properties": {
-    "Analytics": "v2:deflate64:H4sIAAAAAAAA/5VQQW7CMBB8CzkvrkLUS29AhVSpFYj0VlXIcRZiktgou4Yiy3+vErclHHuaWc/seOyZmD1mIp3IC01VWU8bXQifs1Q1yAvtPGXCL5yqkWG5N5F9+KTVX9okT8l4rfdTJgaJRLTOHdtnbJBxXRxRMSXhE6K0sY1W11tqnP+RHRdylowtmnH0QhIGKK9GtrYshH+XRYP9TQMJoGUr/NbGswFvZSIL0Mi2KKXwK2cUa2t67ZcHoGwniZBJzHsAYjztf1TasaSaxOuQ8GLOtsZ7g/C5UwqxhJXUDSwrqxXC8JI3qSpthmLjOQRYOmLbbpGs61Rs/sfvpE1nz7rErv8FGOrlLA/aHGC8vHZ8chxgc+XKmodMpKlIJ0fSeto5w7pFsY34DS6Xg8UjAgAA"
+    "Analytics": "v2:deflate64:H4sIAAAAAAAA/5VQTW/CMAz9LfQcMkG1y258CGnSJhDdbZqQmxoa2iaodmAoyn+f2mxQjjv5Oe/52S9TOX1O5WQEFxqrohrXOpc+Y1CVgAvtPKXSz52qkMVibyL69Emjv7VJXpLhWKenVPYUySidObZLrJFxnR9RMSXhS0RqY2utrnfX2P/DOw5kDIwNmqH1HAiDKK4GGlvk0n9AXmO3qQdBaGik39r41tf7MREFUUOTFyD9yhnF2pqO+8NBULoDImSSs64IYjztf1naMVBF8q13eDVnW+GjQPrMKYVYiBXoWixKqxWKPsk7qFKb/rBhH4SqrSsuwKqUfglU5hbaopPdmhDEwhHbZotkXatiuht+oDatPesC2+6nRB8hYzhocxDD4bXjk+MgNlcurXlK5WQiJ6MjaT1unWHdoNzG+gM35RFdRwIAAA=="
    },
    "Metadata": {
     "aws:cdk:path": "MultiAgentStack/CDKMetadata/Default"
@@ -817,6 +882,10 @@
    "Value": {
     "Ref": "ResearchStateMachine1BD6F160"
    }
+  },
+  "DashboardUrl": {
+   "Description": "CloudWatch dashboard URL",
+   "Value": "https://us-east-1.console.aws.amazon.com/cloudwatch/home?region=us-east-1#dashboards:name=multi-agent-research-system"
   },
   "SessionsTableName": {
    "Description": "DynamoDB table for session persistence",
