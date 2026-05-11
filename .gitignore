@@ -6,3 +6,6 @@ cdk.out/
 *.egg-info/
 .DS_Store
 node_modules/venv/
+*.pkg
+output*.json
+orchestrator_output.json
