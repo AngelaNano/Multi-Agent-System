@@ -1,5 +1,12 @@
 # Multi-Agent Research System
 
+---
+
+**Live Demo:** https://angelanano-multi-agent-system.streamlit.app  
+**GitHub:** https://github.com/AngelaNano/Multi-Agent-System
+
+---
+
 An end-to-end AI research pipeline built on AWS, where multiple specialized agents collaborate to research any topic, analyze findings, and generate comprehensive reports — all orchestrated through AWS Step Functions with human-in-the-loop approval checkpoints.
 
 ## Architecture
