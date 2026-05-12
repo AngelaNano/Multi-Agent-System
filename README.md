@@ -154,9 +154,9 @@ http://localhost:8501
 | GET | `/reports` | List all S3 reports |
 | GET | `/report/{key}` | Download specific report |
 
-## Resume Bullet
+## Summary
 
-> Architected multi-agent orchestration system using AWS Bedrock Agents with custom tool definitions and AWS Step Functions state machines to coordinate sequential/parallel agent workflows. Engineered serverless tool-execution layer via AWS Lambda with DynamoDB session persistence for agent state checkpointing and suspend/resume HITL intervention, achieving 99.9% uptime and sub-200ms tool response latency. Deployed Bedrock Knowledge Bases with AWS S3 document ingestion pipeline processing PDFs and structured data for vector retrieval RAG grounding, containerized orchestration via Docker on AWS ECS, and infrastructure provisioned with AWS CDK with CloudWatch observability dashboards.
+Architected multi-agent orchestration system using AWS Bedrock Agents with custom tool definitions and AWS Step Functions state machines to coordinate sequential/parallel agent workflows. Engineered serverless tool-execution layer via AWS Lambda with DynamoDB session persistence for agent state checkpointing and suspend/resume HITL intervention, achieving 99.9% uptime and sub-200ms tool response latency. Deployed Bedrock Knowledge Bases with AWS S3 document ingestion pipeline processing PDFs and structured data for vector retrieval RAG grounding, containerized orchestration via Docker on AWS ECS, and infrastructure provisioned with AWS CDK with CloudWatch observability dashboards.
 
 ## Author
 
