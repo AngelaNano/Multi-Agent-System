@@ -842,10 +842,817 @@
     "aws:cdk:path": "MultiAgentStack/MultiAgentDashboard/Resource"
    }
   },
+  "MultiAgentVpc9640A13B": {
+   "Type": "AWS::EC2::VPC",
+   "Properties": {
+    "CidrBlock": "10.0.0.0/16",
+    "EnableDnsHostnames": true,
+    "EnableDnsSupport": true,
+    "InstanceTenancy": "default",
+    "Tags": [
+     {
+      "Key": "Name",
+      "Value": "MultiAgentStack/MultiAgentVpc"
+     }
+    ]
+   },
+   "Metadata": {
+    "aws:cdk:path": "MultiAgentStack/MultiAgentVpc/Resource"
+   }
+  },
+  "MultiAgentVpcPublicSubnet1Subnet20035D74": {
+   "Type": "AWS::EC2::Subnet",
+   "Properties": {
+    "AvailabilityZone": {
+     "Fn::Select": [
+      0,
+      {
+       "Fn::GetAZs": ""
+      }
+     ]
+    },
+    "CidrBlock": "10.0.0.0/18",
+    "MapPublicIpOnLaunch": true,
+    "Tags": [
+     {
+      "Key": "aws-cdk:subnet-name",
+      "Value": "Public"
+     },
+     {
+      "Key": "aws-cdk:subnet-type",
+      "Value": "Public"
+     },
+     {
+      "Key": "Name",
+      "Value": "MultiAgentStack/MultiAgentVpc/PublicSubnet1"
+     }
+    ],
+    "VpcId": {
+     "Ref": "MultiAgentVpc9640A13B"
+    }
+   },
+   "Metadata": {
+    "aws:cdk:path": "MultiAgentStack/MultiAgentVpc/PublicSubnet1/Subnet"
+   }
+  },
+  "MultiAgentVpcPublicSubnet1RouteTableFE15E8A1": {
+   "Type": "AWS::EC2::RouteTable",
+   "Properties": {
+    "Tags": [
+     {
+      "Key": "Name",
+      "Value": "MultiAgentStack/MultiAgentVpc/PublicSubnet1"
+     }
+    ],
+    "VpcId": {
+     "Ref": "MultiAgentVpc9640A13B"
+    }
+   },
+   "Metadata": {
+    "aws:cdk:path": "MultiAgentStack/MultiAgentVpc/PublicSubnet1/RouteTable"
+   }
+  },
+  "MultiAgentVpcPublicSubnet1RouteTableAssociation83E919D5": {
+   "Type": "AWS::EC2::SubnetRouteTableAssociation",
+   "Properties": {
+    "RouteTableId": {
+     "Ref": "MultiAgentVpcPublicSubnet1RouteTableFE15E8A1"
+    },
+    "SubnetId": {
+     "Ref": "MultiAgentVpcPublicSubnet1Subnet20035D74"
+    }
+   },
+   "Metadata": {
+    "aws:cdk:path": "MultiAgentStack/MultiAgentVpc/PublicSubnet1/RouteTableAssociation"
+   }
+  },
+  "MultiAgentVpcPublicSubnet1DefaultRoute5DA258F1": {
+   "Type": "AWS::EC2::Route",
+   "Properties": {
+    "DestinationCidrBlock": "0.0.0.0/0",
+    "GatewayId": {
+     "Ref": "MultiAgentVpcIGW8D2ABA7D"
+    },
+    "RouteTableId": {
+     "Ref": "MultiAgentVpcPublicSubnet1RouteTableFE15E8A1"
+    }
+   },
+   "DependsOn": [
+    "MultiAgentVpcVPCGW58B08E2F"
+   ],
+   "Metadata": {
+    "aws:cdk:path": "MultiAgentStack/MultiAgentVpc/PublicSubnet1/DefaultRoute"
+   }
+  },
+  "MultiAgentVpcPublicSubnet2SubnetC9947838": {
+   "Type": "AWS::EC2::Subnet",
+   "Properties": {
+    "AvailabilityZone": {
+     "Fn::Select": [
+      1,
+      {
+       "Fn::GetAZs": ""
+      }
+     ]
+    },
+    "CidrBlock": "10.0.64.0/18",
+    "MapPublicIpOnLaunch": true,
+    "Tags": [
+     {
+      "Key": "aws-cdk:subnet-name",
+      "Value": "Public"
+     },
+     {
+      "Key": "aws-cdk:subnet-type",
+      "Value": "Public"
+     },
+     {
+      "Key": "Name",
+      "Value": "MultiAgentStack/MultiAgentVpc/PublicSubnet2"
+     }
+    ],
+    "VpcId": {
+     "Ref": "MultiAgentVpc9640A13B"
+    }
+   },
+   "Metadata": {
+    "aws:cdk:path": "MultiAgentStack/MultiAgentVpc/PublicSubnet2/Subnet"
+   }
+  },
+  "MultiAgentVpcPublicSubnet2RouteTable7711E0F2": {
+   "Type": "AWS::EC2::RouteTable",
+   "Properties": {
+    "Tags": [
+     {
+      "Key": "Name",
+      "Value": "MultiAgentStack/MultiAgentVpc/PublicSubnet2"
+     }
+    ],
+    "VpcId": {
+     "Ref": "MultiAgentVpc9640A13B"
+    }
+   },
+   "Metadata": {
+    "aws:cdk:path": "MultiAgentStack/MultiAgentVpc/PublicSubnet2/RouteTable"
+   }
+  },
+  "MultiAgentVpcPublicSubnet2RouteTableAssociation3AB12FBC": {
+   "Type": "AWS::EC2::SubnetRouteTableAssociation",
+   "Properties": {
+    "RouteTableId": {
+     "Ref": "MultiAgentVpcPublicSubnet2RouteTable7711E0F2"
+    },
+    "SubnetId": {
+     "Ref": "MultiAgentVpcPublicSubnet2SubnetC9947838"
+    }
+   },
+   "Metadata": {
+    "aws:cdk:path": "MultiAgentStack/MultiAgentVpc/PublicSubnet2/RouteTableAssociation"
+   }
+  },
+  "MultiAgentVpcPublicSubnet2DefaultRoute25BAD355": {
+   "Type": "AWS::EC2::Route",
+   "Properties": {
+    "DestinationCidrBlock": "0.0.0.0/0",
+    "GatewayId": {
+     "Ref": "MultiAgentVpcIGW8D2ABA7D"
+    },
+    "RouteTableId": {
+     "Ref": "MultiAgentVpcPublicSubnet2RouteTable7711E0F2"
+    }
+   },
+   "DependsOn": [
+    "MultiAgentVpcVPCGW58B08E2F"
+   ],
+   "Metadata": {
+    "aws:cdk:path": "MultiAgentStack/MultiAgentVpc/PublicSubnet2/DefaultRoute"
+   }
+  },
+  "MultiAgentVpcIsolatedSubnet1Subnet31C611B0": {
+   "Type": "AWS::EC2::Subnet",
+   "Properties": {
+    "AvailabilityZone": {
+     "Fn::Select": [
+      0,
+      {
+       "Fn::GetAZs": ""
+      }
+     ]
+    },
+    "CidrBlock": "10.0.128.0/18",
+    "MapPublicIpOnLaunch": false,
+    "Tags": [
+     {
+      "Key": "aws-cdk:subnet-name",
+      "Value": "Isolated"
+     },
+     {
+      "Key": "aws-cdk:subnet-type",
+      "Value": "Isolated"
+     },
+     {
+      "Key": "Name",
+      "Value": "MultiAgentStack/MultiAgentVpc/IsolatedSubnet1"
+     }
+    ],
+    "VpcId": {
+     "Ref": "MultiAgentVpc9640A13B"
+    }
+   },
+   "Metadata": {
+    "aws:cdk:path": "MultiAgentStack/MultiAgentVpc/IsolatedSubnet1/Subnet"
+   }
+  },
+  "MultiAgentVpcIsolatedSubnet1RouteTableAF1856FB": {
+   "Type": "AWS::EC2::RouteTable",
+   "Properties": {
+    "Tags": [
+     {
+      "Key": "Name",
+      "Value": "MultiAgentStack/MultiAgentVpc/IsolatedSubnet1"
+     }
+    ],
+    "VpcId": {
+     "Ref": "MultiAgentVpc9640A13B"
+    }
+   },
+   "Metadata": {
+    "aws:cdk:path": "MultiAgentStack/MultiAgentVpc/IsolatedSubnet1/RouteTable"
+   }
+  },
+  "MultiAgentVpcIsolatedSubnet1RouteTableAssociation05CC4617": {
+   "Type": "AWS::EC2::SubnetRouteTableAssociation",
+   "Properties": {
+    "RouteTableId": {
+     "Ref": "MultiAgentVpcIsolatedSubnet1RouteTableAF1856FB"
+    },
+    "SubnetId": {
+     "Ref": "MultiAgentVpcIsolatedSubnet1Subnet31C611B0"
+    }
+   },
+   "Metadata": {
+    "aws:cdk:path": "MultiAgentStack/MultiAgentVpc/IsolatedSubnet1/RouteTableAssociation"
+   }
+  },
+  "MultiAgentVpcIsolatedSubnet2SubnetB5F4673E": {
+   "Type": "AWS::EC2::Subnet",
+   "Properties": {
+    "AvailabilityZone": {
+     "Fn::Select": [
+      1,
+      {
+       "Fn::GetAZs": ""
+      }
+     ]
+    },
+    "CidrBlock": "10.0.192.0/18",
+    "MapPublicIpOnLaunch": false,
+    "Tags": [
+     {
+      "Key": "aws-cdk:subnet-name",
+      "Value": "Isolated"
+     },
+     {
+      "Key": "aws-cdk:subnet-type",
+      "Value": "Isolated"
+     },
+     {
+      "Key": "Name",
+      "Value": "MultiAgentStack/MultiAgentVpc/IsolatedSubnet2"
+     }
+    ],
+    "VpcId": {
+     "Ref": "MultiAgentVpc9640A13B"
+    }
+   },
+   "Metadata": {
+    "aws:cdk:path": "MultiAgentStack/MultiAgentVpc/IsolatedSubnet2/Subnet"
+   }
+  },
+  "MultiAgentVpcIsolatedSubnet2RouteTable2B531E7E": {
+   "Type": "AWS::EC2::RouteTable",
+   "Properties": {
+    "Tags": [
+     {
+      "Key": "Name",
+      "Value": "MultiAgentStack/MultiAgentVpc/IsolatedSubnet2"
+     }
+    ],
+    "VpcId": {
+     "Ref": "MultiAgentVpc9640A13B"
+    }
+   },
+   "Metadata": {
+    "aws:cdk:path": "MultiAgentStack/MultiAgentVpc/IsolatedSubnet2/RouteTable"
+   }
+  },
+  "MultiAgentVpcIsolatedSubnet2RouteTableAssociation4637BC70": {
+   "Type": "AWS::EC2::SubnetRouteTableAssociation",
+   "Properties": {
+    "RouteTableId": {
+     "Ref": "MultiAgentVpcIsolatedSubnet2RouteTable2B531E7E"
+    },
+    "SubnetId": {
+     "Ref": "MultiAgentVpcIsolatedSubnet2SubnetB5F4673E"
+    }
+   },
+   "Metadata": {
+    "aws:cdk:path": "MultiAgentStack/MultiAgentVpc/IsolatedSubnet2/RouteTableAssociation"
+   }
+  },
+  "MultiAgentVpcIGW8D2ABA7D": {
+   "Type": "AWS::EC2::InternetGateway",
+   "Properties": {
+    "Tags": [
+     {
+      "Key": "Name",
+      "Value": "MultiAgentStack/MultiAgentVpc"
+     }
+    ]
+   },
+   "Metadata": {
+    "aws:cdk:path": "MultiAgentStack/MultiAgentVpc/IGW"
+   }
+  },
+  "MultiAgentVpcVPCGW58B08E2F": {
+   "Type": "AWS::EC2::VPCGatewayAttachment",
+   "Properties": {
+    "InternetGatewayId": {
+     "Ref": "MultiAgentVpcIGW8D2ABA7D"
+    },
+    "VpcId": {
+     "Ref": "MultiAgentVpc9640A13B"
+    }
+   },
+   "Metadata": {
+    "aws:cdk:path": "MultiAgentStack/MultiAgentVpc/VPCGW"
+   }
+  },
+  "MultiAgentCluster3CC60B3F": {
+   "Type": "AWS::ECS::Cluster",
+   "Properties": {
+    "ClusterName": "multi-agent-cluster"
+   },
+   "Metadata": {
+    "aws:cdk:path": "MultiAgentStack/MultiAgentCluster/Resource"
+   }
+  },
+  "EcsTaskRole8DFA0181": {
+   "Type": "AWS::IAM::Role",
+   "Properties": {
+    "AssumeRolePolicyDocument": {
+     "Statement": [
+      {
+       "Action": "sts:AssumeRole",
+       "Effect": "Allow",
+       "Principal": {
+        "Service": "ecs-tasks.amazonaws.com"
+       }
+      }
+     ],
+     "Version": "2012-10-17"
+    }
+   },
+   "Metadata": {
+    "aws:cdk:path": "MultiAgentStack/EcsTaskRole/Resource"
+   }
+  },
+  "EcsTaskRoleDefaultPolicy50882C77": {
+   "Type": "AWS::IAM::Policy",
+   "Properties": {
+    "PolicyDocument": {
+     "Statement": [
+      {
+       "Action": [
+        "bedrock:*",
+        "s3:*",
+        "dynamodb:*",
+        "states:*",
+        "logs:CreateLogStream",
+        "logs:PutLogEvents",
+        "logs:CreateLogGroup"
+       ],
+       "Effect": "Allow",
+       "Resource": "*"
+      }
+     ],
+     "Version": "2012-10-17"
+    },
+    "PolicyName": "EcsTaskRoleDefaultPolicy50882C77",
+    "Roles": [
+     {
+      "Ref": "EcsTaskRole8DFA0181"
+     }
+    ]
+   },
+   "Metadata": {
+    "aws:cdk:path": "MultiAgentStack/EcsTaskRole/DefaultPolicy/Resource"
+   }
+  },
+  "EcsExecutionRoleFD93B7A2": {
+   "Type": "AWS::IAM::Role",
+   "Properties": {
+    "AssumeRolePolicyDocument": {
+     "Statement": [
+      {
+       "Action": "sts:AssumeRole",
+       "Effect": "Allow",
+       "Principal": {
+        "Service": "ecs-tasks.amazonaws.com"
+       }
+      }
+     ],
+     "Version": "2012-10-17"
+    },
+    "ManagedPolicyArns": [
+     {
+      "Fn::Join": [
+       "",
+       [
+        "arn:",
+        {
+         "Ref": "AWS::Partition"
+        },
+        ":iam::aws:policy/service-role/AmazonECSTaskExecutionRolePolicy"
+       ]
+      ]
+     }
+    ]
+   },
+   "Metadata": {
+    "aws:cdk:path": "MultiAgentStack/EcsExecutionRole/Resource"
+   }
+  },
+  "EcsExecutionRoleDefaultPolicy9114F99B": {
+   "Type": "AWS::IAM::Policy",
+   "Properties": {
+    "PolicyDocument": {
+     "Statement": [
+      {
+       "Action": [
+        "ecr:GetAuthorizationToken",
+        "ecr:BatchCheckLayerAvailability",
+        "ecr:GetDownloadUrlForLayer",
+        "ecr:BatchGetImage"
+       ],
+       "Effect": "Allow",
+       "Resource": "*"
+      },
+      {
+       "Action": [
+        "logs:CreateLogStream",
+        "logs:PutLogEvents"
+       ],
+       "Effect": "Allow",
+       "Resource": {
+        "Fn::GetAtt": [
+         "MultiAgentFargateServiceTaskDefwebLogGroup7C7D0E4D",
+         "Arn"
+        ]
+       }
+      }
+     ],
+     "Version": "2012-10-17"
+    },
+    "PolicyName": "EcsExecutionRoleDefaultPolicy9114F99B",
+    "Roles": [
+     {
+      "Ref": "EcsExecutionRoleFD93B7A2"
+     }
+    ]
+   },
+   "Metadata": {
+    "aws:cdk:path": "MultiAgentStack/EcsExecutionRole/DefaultPolicy/Resource"
+   }
+  },
+  "MultiAgentFargateServiceLBB7ECFF48": {
+   "Type": "AWS::ElasticLoadBalancingV2::LoadBalancer",
+   "Properties": {
+    "LoadBalancerAttributes": [
+     {
+      "Key": "deletion_protection.enabled",
+      "Value": "false"
+     }
+    ],
+    "Scheme": "internet-facing",
+    "SecurityGroups": [
+     {
+      "Fn::GetAtt": [
+       "MultiAgentFargateServiceLBSecurityGroupC659C913",
+       "GroupId"
+      ]
+     }
+    ],
+    "Subnets": [
+     {
+      "Ref": "MultiAgentVpcPublicSubnet1Subnet20035D74"
+     },
+     {
+      "Ref": "MultiAgentVpcPublicSubnet2SubnetC9947838"
+     }
+    ],
+    "Type": "application"
+   },
+   "DependsOn": [
+    "MultiAgentVpcPublicSubnet1DefaultRoute5DA258F1",
+    "MultiAgentVpcPublicSubnet1RouteTableAssociation83E919D5",
+    "MultiAgentVpcPublicSubnet2DefaultRoute25BAD355",
+    "MultiAgentVpcPublicSubnet2RouteTableAssociation3AB12FBC"
+   ],
+   "Metadata": {
+    "aws:cdk:path": "MultiAgentStack/MultiAgentFargateService/LB/Resource"
+   }
+  },
+  "MultiAgentFargateServiceLBSecurityGroupC659C913": {
+   "Type": "AWS::EC2::SecurityGroup",
+   "Properties": {
+    "GroupDescription": "Automatically created Security Group for ELB MultiAgentStackMultiAgentFargateServiceLB6569983E",
+    "SecurityGroupIngress": [
+     {
+      "CidrIp": "0.0.0.0/0",
+      "Description": "Allow from anyone on port 80",
+      "FromPort": 80,
+      "IpProtocol": "tcp",
+      "ToPort": 80
+     }
+    ],
+    "VpcId": {
+     "Ref": "MultiAgentVpc9640A13B"
+    }
+   },
+   "Metadata": {
+    "aws:cdk:path": "MultiAgentStack/MultiAgentFargateService/LB/SecurityGroup/Resource"
+   }
+  },
+  "MultiAgentFargateServiceLBSecurityGrouptoMultiAgentStackMultiAgentFargateServiceSecurityGroup8AC73ADA80006B1F56BA": {
+   "Type": "AWS::EC2::SecurityGroupEgress",
+   "Properties": {
+    "Description": "Load balancer to target",
+    "DestinationSecurityGroupId": {
+     "Fn::GetAtt": [
+      "MultiAgentFargateServiceSecurityGroupA4F4273E",
+      "GroupId"
+     ]
+    },
+    "FromPort": 8000,
+    "GroupId": {
+     "Fn::GetAtt": [
+      "MultiAgentFargateServiceLBSecurityGroupC659C913",
+      "GroupId"
+     ]
+    },
+    "IpProtocol": "tcp",
+    "ToPort": 8000
+   },
+   "Metadata": {
+    "aws:cdk:path": "MultiAgentStack/MultiAgentFargateService/LB/SecurityGroup/to MultiAgentStackMultiAgentFargateServiceSecurityGroup8AC73ADA:8000"
+   }
+  },
+  "MultiAgentFargateServiceLBPublicListenerAFD72B8E": {
+   "Type": "AWS::ElasticLoadBalancingV2::Listener",
+   "Properties": {
+    "DefaultActions": [
+     {
+      "TargetGroupArn": {
+       "Ref": "MultiAgentFargateServiceLBPublicListenerECSGroup51FEBC85"
+      },
+      "Type": "forward"
+     }
+    ],
+    "LoadBalancerArn": {
+     "Ref": "MultiAgentFargateServiceLBB7ECFF48"
+    },
+    "Port": 80,
+    "Protocol": "HTTP"
+   },
+   "Metadata": {
+    "aws:cdk:path": "MultiAgentStack/MultiAgentFargateService/LB/PublicListener/Resource"
+   }
+  },
+  "MultiAgentFargateServiceLBPublicListenerECSGroup51FEBC85": {
+   "Type": "AWS::ElasticLoadBalancingV2::TargetGroup",
+   "Properties": {
+    "HealthCheckPath": "/",
+    "Matcher": {
+     "HttpCode": "200"
+    },
+    "Port": 80,
+    "Protocol": "HTTP",
+    "TargetGroupAttributes": [
+     {
+      "Key": "stickiness.enabled",
+      "Value": "false"
+     }
+    ],
+    "TargetType": "ip",
+    "VpcId": {
+     "Ref": "MultiAgentVpc9640A13B"
+    }
+   },
+   "Metadata": {
+    "aws:cdk:path": "MultiAgentStack/MultiAgentFargateService/LB/PublicListener/ECSGroup/Resource"
+   }
+  },
+  "MultiAgentFargateServiceTaskDef3EE72DCE": {
+   "Type": "AWS::ECS::TaskDefinition",
+   "Properties": {
+    "ContainerDefinitions": [
+     {
+      "Environment": [
+       {
+        "Name": "AWS_DEFAULT_REGION",
+        "Value": "us-east-1"
+       },
+       {
+        "Name": "STATE_MACHINE_ARN",
+        "Value": {
+         "Ref": "ResearchStateMachine1BD6F160"
+        }
+       },
+       {
+        "Name": "SESSIONS_TABLE",
+        "Value": {
+         "Ref": "SessionsTable7C302024"
+        }
+       },
+       {
+        "Name": "BUCKET_NAME",
+        "Value": {
+         "Ref": "DocumentsBucket9EC9DEB9"
+        }
+       }
+      ],
+      "Essential": true,
+      "Image": "160489847335.dkr.ecr.us-east-1.amazonaws.com/multi-agent-api:latest",
+      "LogConfiguration": {
+       "LogDriver": "awslogs",
+       "Options": {
+        "awslogs-group": {
+         "Ref": "MultiAgentFargateServiceTaskDefwebLogGroup7C7D0E4D"
+        },
+        "awslogs-stream-prefix": "MultiAgentFargateService",
+        "awslogs-region": "us-east-1"
+       }
+      },
+      "Name": "web",
+      "PortMappings": [
+       {
+        "ContainerPort": 8000,
+        "Protocol": "tcp"
+       }
+      ]
+     }
+    ],
+    "Cpu": "256",
+    "ExecutionRoleArn": {
+     "Fn::GetAtt": [
+      "EcsExecutionRoleFD93B7A2",
+      "Arn"
+     ]
+    },
+    "Family": "MultiAgentStackMultiAgentFargateServiceTaskDefB6AC75A8",
+    "Memory": "512",
+    "NetworkMode": "awsvpc",
+    "RequiresCompatibilities": [
+     "FARGATE"
+    ],
+    "TaskRoleArn": {
+     "Fn::GetAtt": [
+      "EcsTaskRole8DFA0181",
+      "Arn"
+     ]
+    }
+   },
+   "Metadata": {
+    "aws:cdk:path": "MultiAgentStack/MultiAgentFargateService/TaskDef/Resource"
+   }
+  },
+  "MultiAgentFargateServiceTaskDefwebLogGroup7C7D0E4D": {
+   "Type": "AWS::Logs::LogGroup",
+   "UpdateReplacePolicy": "Retain",
+   "DeletionPolicy": "Retain",
+   "Metadata": {
+    "aws:cdk:path": "MultiAgentStack/MultiAgentFargateService/TaskDef/web/LogGroup/Resource"
+   }
+  },
+  "MultiAgentFargateService06A64C4B": {
+   "Type": "AWS::ECS::Service",
+   "Properties": {
+    "Cluster": {
+     "Ref": "MultiAgentCluster3CC60B3F"
+    },
+    "DeploymentConfiguration": {
+     "Alarms": {
+      "AlarmNames": [],
+      "Enable": false,
+      "Rollback": false
+     },
+     "MaximumPercent": 200,
+     "MinimumHealthyPercent": 50
+    },
+    "DesiredCount": 1,
+    "EnableECSManagedTags": false,
+    "HealthCheckGracePeriodSeconds": 60,
+    "LaunchType": "FARGATE",
+    "LoadBalancers": [
+     {
+      "ContainerName": "web",
+      "ContainerPort": 8000,
+      "TargetGroupArn": {
+       "Ref": "MultiAgentFargateServiceLBPublicListenerECSGroup51FEBC85"
+      }
+     }
+    ],
+    "NetworkConfiguration": {
+     "AwsvpcConfiguration": {
+      "AssignPublicIp": "ENABLED",
+      "SecurityGroups": [
+       {
+        "Fn::GetAtt": [
+         "MultiAgentFargateServiceSecurityGroupA4F4273E",
+         "GroupId"
+        ]
+       }
+      ],
+      "Subnets": [
+       {
+        "Ref": "MultiAgentVpcPublicSubnet1Subnet20035D74"
+       },
+       {
+        "Ref": "MultiAgentVpcPublicSubnet2SubnetC9947838"
+       }
+      ]
+     }
+    },
+    "TaskDefinition": {
+     "Ref": "MultiAgentFargateServiceTaskDef3EE72DCE"
+    }
+   },
+   "DependsOn": [
+    "EcsTaskRoleDefaultPolicy50882C77",
+    "EcsTaskRole8DFA0181",
+    "MultiAgentFargateServiceLBPublicListenerECSGroup51FEBC85",
+    "MultiAgentFargateServiceLBPublicListenerAFD72B8E"
+   ],
+   "Metadata": {
+    "aws:cdk:path": "MultiAgentStack/MultiAgentFargateService/Service/Service"
+   }
+  },
+  "MultiAgentFargateServiceSecurityGroupA4F4273E": {
+   "Type": "AWS::EC2::SecurityGroup",
+   "Properties": {
+    "GroupDescription": "MultiAgentStack/MultiAgentFargateService/Service/SecurityGroup",
+    "SecurityGroupEgress": [
+     {
+      "CidrIp": "0.0.0.0/0",
+      "Description": "Allow all outbound traffic by default",
+      "IpProtocol": "-1"
+     }
+    ],
+    "VpcId": {
+     "Ref": "MultiAgentVpc9640A13B"
+    }
+   },
+   "DependsOn": [
+    "EcsTaskRoleDefaultPolicy50882C77",
+    "EcsTaskRole8DFA0181"
+   ],
+   "Metadata": {
+    "aws:cdk:path": "MultiAgentStack/MultiAgentFargateService/Service/SecurityGroup/Resource"
+   }
+  },
+  "MultiAgentFargateServiceSecurityGroupfromMultiAgentStackMultiAgentFargateServiceLBSecurityGroupFDCACA188000C9B7C98C": {
+   "Type": "AWS::EC2::SecurityGroupIngress",
+   "Properties": {
+    "Description": "Load balancer to target",
+    "FromPort": 8000,
+    "GroupId": {
+     "Fn::GetAtt": [
+      "MultiAgentFargateServiceSecurityGroupA4F4273E",
+      "GroupId"
+     ]
+    },
+    "IpProtocol": "tcp",
+    "SourceSecurityGroupId": {
+     "Fn::GetAtt": [
+      "MultiAgentFargateServiceLBSecurityGroupC659C913",
+      "GroupId"
+     ]
+    },
+    "ToPort": 8000
+   },
+   "DependsOn": [
+    "EcsTaskRoleDefaultPolicy50882C77",
+    "EcsTaskRole8DFA0181"
+   ],
+   "Metadata": {
+    "aws:cdk:path": "MultiAgentStack/MultiAgentFargateService/Service/SecurityGroup/from MultiAgentStackMultiAgentFargateServiceLBSecurityGroupFDCACA18:8000"
+   }
+  },
   "CDKMetadata": {
    "Type": "AWS::CDK::Metadata",
    "Properties": {
-    "Analytics": "v2:deflate64:H4sIAAAAAAAA/5VQTW/CMAz9LfQcMkG1y258CGnSJhDdbZqQmxoa2iaodmAoyn+f2mxQjjv5Oe/52S9TOX1O5WQEFxqrohrXOpc+Y1CVgAvtPKXSz52qkMVibyL69Emjv7VJXpLhWKenVPYUySidObZLrJFxnR9RMSXhS0RqY2utrnfX2P/DOw5kDIwNmqH1HAiDKK4GGlvk0n9AXmO3qQdBaGik39r41tf7MREFUUOTFyD9yhnF2pqO+8NBULoDImSSs64IYjztf1naMVBF8q13eDVnW+GjQPrMKYVYiBXoWixKqxWKPsk7qFKb/rBhH4SqrSsuwKqUfglU5hbaopPdmhDEwhHbZotkXatiuht+oDatPesC2+6nRB8hYzhocxDD4bXjk+MgNlcurXlK5WQiJ6MjaT1unWHdoNzG+gM35RFdRwIAAA=="
+    "Analytics": "v2:deflate64:H4sIAAAAAAAA/5VTy27bMBD8lvjMsLCNXnpznAcMuIhhBbkUhbGiNjJjihS4S7sGoX8vSPmhpEWBnjg7M/sipYmcfJ3K8Q0c6FZVu1ujSxkLBrUTcKBNpKmMd0HtkMX8zfboRxw1+pe2o2+jYVry01RmiWRvnQV292iQ8bl8R8U06n6KXlo5o9XxWrWP/6N2n1AwMDZoh6XvgLAT1dFC46pSxhcoDaZOGXRCQyPj2vVcPq/D9KgTBpqyAhkfg1WsnU3aGXeCphsgQiY5S4cgxvbtpNKGgXYkl7nCwu7dDj8aZCyCUoiVeARtxHzrtEKRN/kOaqttHmwYd0IZF6oDsNrKeA+0LR34KtkuQSdQTWR8bVWiX1dzsQql0aoIpe2f74rWLjBerqXnr9yMyCkN57WzIFZe74HxWmNhGb1FfgLGAxxPTU/RjBnUNr2LKFAFr/n45F1oc7t/Eg+1R6I/6IXNfFqSZJybQIw+uc7wEXwNaQHa3eObtvo8/mfGWQZt0Q+4U26Bfp9eIvfOMLfbtMBpVZKztjVa5YtZOqjuwIBVWH1KRwPEWhkHVZkd2tb7iYx/z85LfIiHPk2M9uQ544H+Ar5GvlzkIOyEcTXJuHT1RT7jrhPzQOyaNZILvt/4ij9IK+/2ukKf/imRP/aCoda2FsPk58Bt4E6sjrx19stUjsdyfPNOWt/6YFk3KNf9+RvKB/RfcQQAAA=="
    },
    "Metadata": {
     "aws:cdk:path": "MultiAgentStack/CDKMetadata/Default"
@@ -881,6 +1688,47 @@
    "Description": "ARN of the Step Functions state machine",
    "Value": {
     "Ref": "ResearchStateMachine1BD6F160"
+   }
+  },
+  "MultiAgentFargateServiceLoadBalancerDNS87EAB084": {
+   "Value": {
+    "Fn::GetAtt": [
+     "MultiAgentFargateServiceLBB7ECFF48",
+     "DNSName"
+    ]
+   }
+  },
+  "MultiAgentFargateServiceServiceURLEED5EF7E": {
+   "Value": {
+    "Fn::Join": [
+     "",
+     [
+      "http://",
+      {
+       "Fn::GetAtt": [
+        "MultiAgentFargateServiceLBB7ECFF48",
+        "DNSName"
+       ]
+      }
+     ]
+    ]
+   }
+  },
+  "ApiUrl": {
+   "Description": "Public URL of the FastAPI backend",
+   "Value": {
+    "Fn::Join": [
+     "",
+     [
+      "http://",
+      {
+       "Fn::GetAtt": [
+        "MultiAgentFargateServiceLBB7ECFF48",
+        "DNSName"
+       ]
+      }
+     ]
+    ]
    }
   },
   "DashboardUrl": {

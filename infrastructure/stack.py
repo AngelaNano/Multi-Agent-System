@@ -7,6 +7,9 @@ from aws_cdk import (
     aws_stepfunctions_tasks as tasks,
     aws_dynamodb as dynamodb,
     aws_cloudwatch as cloudwatch,
+    aws_ecs as ecs,
+    aws_ecs_patterns as ecs_patterns,
+    aws_ec2 as ec2,
     RemovalPolicy,
     CfnOutput,
     Duration
@@ -322,6 +325,107 @@ class MultiAgentStack(Stack):
                 ],
                 width=12
             )
+        )
+
+        # ── VPC ───────────────────────────────────────────────────
+        # Virtual Private Cloud — isolated network for your ECS cluster
+        vpc = ec2.Vpc(
+            self,
+            "MultiAgentVpc",
+            max_azs=2,
+            nat_gateways=0,
+        )
+
+        # ── ECS CLUSTER ───────────────────────────────────────────
+        # The cluster that runs your Docker containers
+        cluster = ecs.Cluster(
+            self,
+            "MultiAgentCluster",
+            vpc=vpc,
+            cluster_name="multi-agent-cluster"
+        )
+
+        # ── IAM ROLE FOR ECS TASK ─────────────────────────────────
+        task_role = iam.Role(
+            self,
+            "EcsTaskRole",
+            assumed_by=iam.ServicePrincipal("ecs-tasks.amazonaws.com"),
+        )
+
+        task_role.add_to_policy(iam.PolicyStatement(
+            effect=iam.Effect.ALLOW,
+            actions=[
+                "bedrock:*",
+                "s3:*",
+                "dynamodb:*",
+                "states:*",
+                "logs:CreateLogStream",
+                "logs:PutLogEvents",
+                "logs:CreateLogGroup"
+            ],
+            resources=["*"]
+        ))
+
+        # ── EXECUTION ROLE FOR ECS ────────────────────────────────
+        execution_role = iam.Role(
+            self,
+            "EcsExecutionRole",
+            assumed_by=iam.ServicePrincipal("ecs-tasks.amazonaws.com"),
+            managed_policies=[
+                iam.ManagedPolicy.from_aws_managed_policy_name(
+                    "service-role/AmazonECSTaskExecutionRolePolicy"
+                )
+            ]
+        )
+
+        execution_role.add_to_policy(iam.PolicyStatement(
+            effect=iam.Effect.ALLOW,
+            actions=[
+                "ecr:GetAuthorizationToken",
+                "ecr:BatchCheckLayerAvailability",
+                "ecr:GetDownloadUrlForLayer",
+                "ecr:BatchGetImage",
+            ],
+            resources=["*"]
+        ))
+
+        # ── FARGATE SERVICE ───────────────────────────────────────
+        fargate_service = ecs_patterns.ApplicationLoadBalancedFargateService(
+            self,
+            "MultiAgentFargateService",
+            cluster=cluster,
+            cpu=256,
+            memory_limit_mib=512,
+            desired_count=1,
+            task_subnets=ec2.SubnetSelection(
+                subnet_type=ec2.SubnetType.PUBLIC
+            ),
+            task_image_options=ecs_patterns.ApplicationLoadBalancedTaskImageOptions(
+                image=ecs.ContainerImage.from_registry(
+                    f"160489847335.dkr.ecr.us-east-1.amazonaws.com/multi-agent-api:latest"
+                ),
+                container_port=8000,
+                task_role=task_role,
+                execution_role=execution_role,
+                environment={
+                    "AWS_DEFAULT_REGION": "us-east-1",
+                    "STATE_MACHINE_ARN": self.state_machine.state_machine_arn,
+                    "SESSIONS_TABLE": self.sessions_table.table_name,
+                    "BUCKET_NAME": self.documents_bucket.bucket_name,
+                }
+            ),
+            public_load_balancer=True,
+            assign_public_ip=True,
+        )
+
+        fargate_service.target_group.configure_health_check(
+            path="/",
+            healthy_http_codes="200"
+        )
+
+        CfnOutput(self, "ApiUrl",
+            value=f"http://{fargate_service.load_balancer.load_balancer_dns_name}",
+            description="Public URL of the FastAPI backend"
         )
 
         CfnOutput(self, "DashboardUrl",

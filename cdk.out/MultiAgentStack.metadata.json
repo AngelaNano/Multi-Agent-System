@@ -3,11 +3,11 @@
     {
       "type": "aws:cdk:creationStack",
       "data": [
-        "Kernel._Kernel_create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:61273)",
-        "Kernel.create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:52004)",
-        "KernelHost.processRequest (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:212888)",
-        "KernelHost.run (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:211943)",
-        "Immediate._onImmediate (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:211987)",
+        "Kernel._Kernel_create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:61273)",
+        "Kernel.create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:52004)",
+        "KernelHost.processRequest (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:212888)",
+        "KernelHost.run (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211943)",
+        "Immediate._onImmediate (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211987)",
         "...node internals..."
       ]
     }
@@ -34,11 +34,11 @@
     {
       "type": "aws:cdk:creationStack",
       "data": [
-        "Kernel._Kernel_create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:61273)",
-        "Kernel.create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:52004)",
-        "KernelHost.processRequest (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:212888)",
-        "KernelHost.run (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:211943)",
-        "Immediate._onImmediate (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:211987)",
+        "Kernel._Kernel_create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:61273)",
+        "Kernel.create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:52004)",
+        "KernelHost.processRequest (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:212888)",
+        "KernelHost.run (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211943)",
+        "Immediate._onImmediate (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211987)",
         "...node internals..."
       ]
     }
@@ -51,11 +51,11 @@
     {
       "type": "aws:cdk:creationStack",
       "data": [
-        "Kernel._Kernel_create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:61273)",
-        "Kernel.create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:52004)",
-        "KernelHost.processRequest (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:212888)",
-        "KernelHost.run (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:211943)",
-        "Immediate._onImmediate (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:211987)",
+        "Kernel._Kernel_create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:61273)",
+        "Kernel.create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:52004)",
+        "KernelHost.processRequest (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:212888)",
+        "KernelHost.run (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211943)",
+        "Immediate._onImmediate (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211987)",
         "...node internals..."
       ]
     }
@@ -68,11 +68,11 @@
     {
       "type": "aws:cdk:creationStack",
       "data": [
-        "Kernel._Kernel_create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:61273)",
-        "Kernel.create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:52004)",
-        "KernelHost.processRequest (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:212888)",
-        "KernelHost.run (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:211943)",
-        "Immediate._onImmediate (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:211987)",
+        "Kernel._Kernel_create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:61273)",
+        "Kernel.create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:52004)",
+        "KernelHost.processRequest (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:212888)",
+        "KernelHost.run (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211943)",
+        "Immediate._onImmediate (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211987)",
         "...node internals..."
       ]
     }
@@ -85,11 +85,28 @@
     {
       "type": "aws:cdk:creationStack",
       "data": [
-        "Kernel._Kernel_create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:61273)",
-        "Kernel.create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:52004)",
-        "KernelHost.processRequest (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:212888)",
-        "KernelHost.run (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:211943)",
-        "Immediate._onImmediate (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:211987)",
+        "Kernel._Kernel_create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:61273)",
+        "Kernel.create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:52004)",
+        "KernelHost.processRequest (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:212888)",
+        "KernelHost.run (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211943)",
+        "Immediate._onImmediate (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211987)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/MultiAgentStack/ApiUrl": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "ApiUrl"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "Kernel._Kernel_create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:61273)",
+        "Kernel.create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:52004)",
+        "KernelHost.processRequest (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:212888)",
+        "KernelHost.run (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211943)",
+        "Immediate._onImmediate (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211987)",
         "...node internals..."
       ]
     }
@@ -102,11 +119,11 @@
     {
       "type": "aws:cdk:creationStack",
       "data": [
-        "Kernel._Kernel_create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:61273)",
-        "Kernel.create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:52004)",
-        "KernelHost.processRequest (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:212888)",
-        "KernelHost.run (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:211943)",
-        "Immediate._onImmediate (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:211987)",
+        "Kernel._Kernel_create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:61273)",
+        "Kernel.create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:52004)",
+        "KernelHost.processRequest (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:212888)",
+        "KernelHost.run (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211943)",
+        "Immediate._onImmediate (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211987)",
         "...node internals..."
       ]
     }
@@ -119,11 +136,11 @@
     {
       "type": "aws:cdk:creationStack",
       "data": [
-        "Kernel._Kernel_create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:61273)",
-        "Kernel.create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:52004)",
-        "KernelHost.processRequest (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:212888)",
-        "KernelHost.run (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:211943)",
-        "Immediate._onImmediate (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:211987)",
+        "Kernel._Kernel_create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:61273)",
+        "Kernel.create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:52004)",
+        "KernelHost.processRequest (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:212888)",
+        "KernelHost.run (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211943)",
+        "Immediate._onImmediate (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211987)",
         "...node internals..."
       ]
     }
@@ -137,12 +154,12 @@
       "type": "aws:cdk:creationStack",
       "data": [
         "...App.synth in aws-cdk-lib...",
-        "/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:543 (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:5434)",
-        "Kernel._Kernel_ensureSync (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:69992)",
-        "Kernel.invoke (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:54294)",
-        "KernelHost.processRequest (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:212888)",
-        "KernelHost.run (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:211943)",
-        "Immediate._onImmediate (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:211987)",
+        "/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:543 (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:5434)",
+        "Kernel._Kernel_ensureSync (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:69992)",
+        "Kernel.invoke (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:54294)",
+        "KernelHost.processRequest (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:212888)",
+        "KernelHost.run (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211943)",
+        "Immediate._onImmediate (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211987)",
         "...node internals..."
       ]
     }
@@ -156,12 +173,12 @@
       "type": "aws:cdk:creationStack",
       "data": [
         "...App.synth in aws-cdk-lib...",
-        "/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:543 (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:5434)",
-        "Kernel._Kernel_ensureSync (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:69992)",
-        "Kernel.invoke (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:54294)",
-        "KernelHost.processRequest (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:212888)",
-        "KernelHost.run (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:211943)",
-        "Immediate._onImmediate (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:211987)",
+        "/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:543 (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:5434)",
+        "Kernel._Kernel_ensureSync (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:69992)",
+        "Kernel.invoke (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:54294)",
+        "KernelHost.processRequest (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:212888)",
+        "KernelHost.run (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211943)",
+        "Immediate._onImmediate (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211987)",
         "...node internals..."
       ]
     }
@@ -175,11 +192,11 @@
       "type": "aws:cdk:creationStack",
       "data": [
         "...new Bucket2 in aws-cdk-lib...",
-        "Kernel._Kernel_create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:61273)",
-        "Kernel.create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:52004)",
-        "KernelHost.processRequest (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:212888)",
-        "KernelHost.run (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:211943)",
-        "Immediate._onImmediate (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:211987)",
+        "Kernel._Kernel_create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:61273)",
+        "Kernel.create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:52004)",
+        "KernelHost.processRequest (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:212888)",
+        "KernelHost.run (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211943)",
+        "Immediate._onImmediate (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211987)",
         "...node internals..."
       ]
     },
@@ -199,11 +216,11 @@
       "type": "aws:cdk:creationStack",
       "data": [
         "...new Bucket2 in aws-cdk-lib...",
-        "Kernel._Kernel_create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:61273)",
-        "Kernel.create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:52004)",
-        "KernelHost.processRequest (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:212888)",
-        "KernelHost.run (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:211943)",
-        "Immediate._onImmediate (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:211987)",
+        "Kernel._Kernel_create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:61273)",
+        "Kernel.create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:52004)",
+        "KernelHost.processRequest (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:212888)",
+        "KernelHost.run (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211943)",
+        "Immediate._onImmediate (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211987)",
         "...node internals..."
       ]
     }
@@ -217,11 +234,11 @@
       "type": "aws:cdk:creationStack",
       "data": [
         "...new Bucket2 in aws-cdk-lib...",
-        "Kernel._Kernel_create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:61273)",
-        "Kernel.create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:52004)",
-        "KernelHost.processRequest (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:212888)",
-        "KernelHost.run (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:211943)",
-        "Immediate._onImmediate (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:211987)",
+        "Kernel._Kernel_create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:61273)",
+        "Kernel.create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:52004)",
+        "KernelHost.processRequest (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:212888)",
+        "KernelHost.run (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211943)",
+        "Immediate._onImmediate (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211987)",
         "...node internals..."
       ]
     }
@@ -235,11 +252,11 @@
       "type": "aws:cdk:creationStack",
       "data": [
         "...new Table2 in aws-cdk-lib...",
-        "Kernel._Kernel_create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:61273)",
-        "Kernel.create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:52004)",
-        "KernelHost.processRequest (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:212888)",
-        "KernelHost.run (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:211943)",
-        "Immediate._onImmediate (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:211987)",
+        "Kernel._Kernel_create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:61273)",
+        "Kernel.create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:52004)",
+        "KernelHost.processRequest (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:212888)",
+        "KernelHost.run (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211943)",
+        "Immediate._onImmediate (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211987)",
         "...node internals..."
       ]
     }
@@ -253,11 +270,11 @@
       "type": "aws:cdk:creationStack",
       "data": [
         "...new Role2 in aws-cdk-lib...",
-        "Kernel._Kernel_create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:61273)",
-        "Kernel.create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:52004)",
-        "KernelHost.processRequest (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:212888)",
-        "KernelHost.run (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:211943)",
-        "Immediate._onImmediate (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:211987)",
+        "Kernel._Kernel_create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:61273)",
+        "Kernel.create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:52004)",
+        "KernelHost.processRequest (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:212888)",
+        "KernelHost.run (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211943)",
+        "Immediate._onImmediate (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211987)",
         "...node internals..."
       ]
     }
@@ -271,11 +288,11 @@
       "type": "aws:cdk:creationStack",
       "data": [
         "...new Role2 in aws-cdk-lib...",
-        "Kernel._Kernel_create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:61273)",
-        "Kernel.create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:52004)",
-        "KernelHost.processRequest (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:212888)",
-        "KernelHost.run (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:211943)",
-        "Immediate._onImmediate (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:211987)",
+        "Kernel._Kernel_create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:61273)",
+        "Kernel.create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:52004)",
+        "KernelHost.processRequest (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:212888)",
+        "KernelHost.run (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211943)",
+        "Immediate._onImmediate (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211987)",
         "...node internals..."
       ]
     }
@@ -289,11 +306,11 @@
       "type": "aws:cdk:creationStack",
       "data": [
         "...new Function2 in aws-cdk-lib...",
-        "Kernel._Kernel_create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:61273)",
-        "Kernel.create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:52004)",
-        "KernelHost.processRequest (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:212888)",
-        "KernelHost.run (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:211943)",
-        "Immediate._onImmediate (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:211987)",
+        "Kernel._Kernel_create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:61273)",
+        "Kernel.create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:52004)",
+        "KernelHost.processRequest (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:212888)",
+        "KernelHost.run (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211943)",
+        "Immediate._onImmediate (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211987)",
         "...node internals..."
       ]
     }
@@ -307,11 +324,11 @@
       "type": "aws:cdk:creationStack",
       "data": [
         "...new Function2 in aws-cdk-lib...",
-        "Kernel._Kernel_create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:61273)",
-        "Kernel.create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:52004)",
-        "KernelHost.processRequest (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:212888)",
-        "KernelHost.run (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:211943)",
-        "Immediate._onImmediate (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:211987)",
+        "Kernel._Kernel_create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:61273)",
+        "Kernel.create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:52004)",
+        "KernelHost.processRequest (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:212888)",
+        "KernelHost.run (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211943)",
+        "Immediate._onImmediate (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211987)",
         "...node internals..."
       ]
     }
@@ -325,11 +342,11 @@
       "type": "aws:cdk:creationStack",
       "data": [
         "...new Function2 in aws-cdk-lib...",
-        "Kernel._Kernel_create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:61273)",
-        "Kernel.create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:52004)",
-        "KernelHost.processRequest (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:212888)",
-        "KernelHost.run (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:211943)",
-        "Immediate._onImmediate (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:211987)",
+        "Kernel._Kernel_create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:61273)",
+        "Kernel.create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:52004)",
+        "KernelHost.processRequest (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:212888)",
+        "KernelHost.run (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211943)",
+        "Immediate._onImmediate (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211987)",
         "...node internals..."
       ]
     }
@@ -343,11 +360,11 @@
       "type": "aws:cdk:creationStack",
       "data": [
         "...new Function2 in aws-cdk-lib...",
-        "Kernel._Kernel_create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:61273)",
-        "Kernel.create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:52004)",
-        "KernelHost.processRequest (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:212888)",
-        "KernelHost.run (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:211943)",
-        "Immediate._onImmediate (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:211987)",
+        "Kernel._Kernel_create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:61273)",
+        "Kernel.create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:52004)",
+        "KernelHost.processRequest (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:212888)",
+        "KernelHost.run (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211943)",
+        "Immediate._onImmediate (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211987)",
         "...node internals..."
       ]
     }
@@ -361,11 +378,11 @@
       "type": "aws:cdk:creationStack",
       "data": [
         "...new Function2 in aws-cdk-lib...",
-        "Kernel._Kernel_create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:61273)",
-        "Kernel.create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:52004)",
-        "KernelHost.processRequest (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:212888)",
-        "KernelHost.run (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:211943)",
-        "Immediate._onImmediate (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:211987)",
+        "Kernel._Kernel_create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:61273)",
+        "Kernel.create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:52004)",
+        "KernelHost.processRequest (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:212888)",
+        "KernelHost.run (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211943)",
+        "Immediate._onImmediate (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211987)",
         "...node internals..."
       ]
     }
@@ -379,11 +396,11 @@
       "type": "aws:cdk:creationStack",
       "data": [
         "...new StateMachine2 in aws-cdk-lib...",
-        "Kernel._Kernel_create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:61273)",
-        "Kernel.create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:52004)",
-        "KernelHost.processRequest (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:212888)",
-        "KernelHost.run (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:211943)",
-        "Immediate._onImmediate (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:211987)",
+        "Kernel._Kernel_create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:61273)",
+        "Kernel.create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:52004)",
+        "KernelHost.processRequest (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:212888)",
+        "KernelHost.run (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211943)",
+        "Immediate._onImmediate (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211987)",
         "...node internals..."
       ]
     }
@@ -397,12 +414,198 @@
       "type": "aws:cdk:creationStack",
       "data": [
         "...new Dashboard2 in aws-cdk-lib...",
-        "Kernel._Kernel_create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:61273)",
-        "Kernel.create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:52004)",
-        "KernelHost.processRequest (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:212888)",
-        "KernelHost.run (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:211943)",
-        "Immediate._onImmediate (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:211987)",
+        "Kernel._Kernel_create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:61273)",
+        "Kernel.create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:52004)",
+        "KernelHost.processRequest (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:212888)",
+        "KernelHost.run (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211943)",
+        "Immediate._onImmediate (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211987)",
         "...node internals..."
+      ]
+    }
+  ],
+  "/MultiAgentStack/MultiAgentVpc/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MultiAgentVpc9640A13B"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new Vpc2 in aws-cdk-lib...",
+        "Kernel._Kernel_create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:61273)",
+        "Kernel.create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:52004)",
+        "KernelHost.processRequest (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:212888)",
+        "KernelHost.run (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211943)",
+        "Immediate._onImmediate (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211987)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/MultiAgentStack/MultiAgentVpc/IGW": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MultiAgentVpcIGW8D2ABA7D"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new Vpc2 in aws-cdk-lib...",
+        "Kernel._Kernel_create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:61273)",
+        "Kernel.create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:52004)",
+        "KernelHost.processRequest (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:212888)",
+        "KernelHost.run (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211943)",
+        "Immediate._onImmediate (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211987)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/MultiAgentStack/MultiAgentVpc/VPCGW": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MultiAgentVpcVPCGW58B08E2F"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new Vpc2 in aws-cdk-lib...",
+        "Kernel._Kernel_create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:61273)",
+        "Kernel.create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:52004)",
+        "KernelHost.processRequest (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:212888)",
+        "KernelHost.run (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211943)",
+        "Immediate._onImmediate (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211987)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/MultiAgentStack/MultiAgentCluster/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MultiAgentCluster3CC60B3F"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new Cluster2 in aws-cdk-lib...",
+        "Kernel._Kernel_create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:61273)",
+        "Kernel.create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:52004)",
+        "KernelHost.processRequest (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:212888)",
+        "KernelHost.run (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211943)",
+        "Immediate._onImmediate (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211987)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/MultiAgentStack/EcsTaskRole/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "EcsTaskRole8DFA0181"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new Role2 in aws-cdk-lib...",
+        "Kernel._Kernel_create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:61273)",
+        "Kernel.create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:52004)",
+        "KernelHost.processRequest (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:212888)",
+        "KernelHost.run (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211943)",
+        "Immediate._onImmediate (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211987)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/MultiAgentStack/EcsExecutionRole/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "EcsExecutionRoleFD93B7A2"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new Role2 in aws-cdk-lib...",
+        "Kernel._Kernel_create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:61273)",
+        "Kernel.create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:52004)",
+        "KernelHost.processRequest (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:212888)",
+        "KernelHost.run (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211943)",
+        "Immediate._onImmediate (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211987)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/MultiAgentStack/MultiAgentFargateService/LoadBalancerDNS": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MultiAgentFargateServiceLoadBalancerDNS87EAB084"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new ApplicationLoadBalancedFargateService2 in aws-cdk-lib...",
+        "Kernel._Kernel_create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:61273)",
+        "Kernel.create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:52004)",
+        "KernelHost.processRequest (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:212888)",
+        "KernelHost.run (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211943)",
+        "Immediate._onImmediate (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211987)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/MultiAgentStack/MultiAgentFargateService/ServiceURL": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MultiAgentFargateServiceServiceURLEED5EF7E"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new ApplicationLoadBalancedFargateService2 in aws-cdk-lib...",
+        "Kernel._Kernel_create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:61273)",
+        "Kernel.create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:52004)",
+        "KernelHost.processRequest (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:212888)",
+        "KernelHost.run (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211943)",
+        "Immediate._onImmediate (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211987)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/MultiAgentStack/MultiAgentFargateService/Service": [
+    {
+      "type": "aws:cdk:warning",
+      "data": "Enable the 'circuitBreaker' property to trigger a quicker deployment failure if tasks are failing to come start (without this setting deployments may take up to 3 hours to fail). [ack: @aws-cdk/aws-ecs:shouldUseCircuitBreaker]",
+      "trace": [
+        "Annotations.addMessage (/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/jsii-kernel-xflZ8i/node_modules/aws-cdk-lib/core/lib/annotations.js:1:2399)",
+        "Annotations.addWarningV2 (/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/jsii-kernel-xflZ8i/node_modules/aws-cdk-lib/core/lib/annotations.js:1:1087)",
+        "new BaseService2 (/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/jsii-kernel-xflZ8i/node_modules/aws-cdk-lib/aws-ecs/lib/base/base-service.js:1:13431)",
+        "new BaseService2 (/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/jsii-kernel-xflZ8i/node_modules/aws-cdk-lib/core/lib/no-box-stack-traces.js:1:345)",
+        "new FargateService2 (/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/jsii-kernel-xflZ8i/node_modules/aws-cdk-lib/aws-ecs/lib/fargate/fargate-service.js:1:6805)",
+        "new FargateService2 (/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/jsii-kernel-xflZ8i/node_modules/aws-cdk-lib/core/lib/prop-injectable.js:1:855)",
+        "new ApplicationLoadBalancedFargateService2 (/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/jsii-kernel-xflZ8i/node_modules/aws-cdk-lib/aws-ecs-patterns/lib/fargate/application-load-balanced-fargate-service.js:1:6392)",
+        "new ApplicationLoadBalancedFargateService2 (/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/jsii-kernel-xflZ8i/node_modules/aws-cdk-lib/core/lib/prop-injectable.js:1:855)",
+        "Kernel._Kernel_create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:61273)",
+        "Kernel.create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:52004)",
+        "KernelHost.processRequest (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:212888)",
+        "KernelHost.run (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211943)",
+        "Immediate._onImmediate (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211987)",
+        "process.processImmediate (node:internal/timers:478:21)"
+      ]
+    },
+    {
+      "type": "aws:cdk:warning",
+      "data": "minHealthyPercent has not been configured so the default value of 50% is used. The number of running tasks will decrease below the desired count during deployments etc. See https://github.com/aws/aws-cdk/issues/31705 [ack: @aws-cdk/aws-ecs:minHealthyPercent]",
+      "trace": [
+        "Annotations.addMessage (/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/jsii-kernel-xflZ8i/node_modules/aws-cdk-lib/core/lib/annotations.js:1:2399)",
+        "Annotations.addWarningV2 (/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/jsii-kernel-xflZ8i/node_modules/aws-cdk-lib/core/lib/annotations.js:1:1087)",
+        "new BaseService2 (/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/jsii-kernel-xflZ8i/node_modules/aws-cdk-lib/aws-ecs/lib/base/base-service.js:1:14346)",
+        "new BaseService2 (/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/jsii-kernel-xflZ8i/node_modules/aws-cdk-lib/core/lib/no-box-stack-traces.js:1:345)",
+        "new FargateService2 (/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/jsii-kernel-xflZ8i/node_modules/aws-cdk-lib/aws-ecs/lib/fargate/fargate-service.js:1:6805)",
+        "new FargateService2 (/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/jsii-kernel-xflZ8i/node_modules/aws-cdk-lib/core/lib/prop-injectable.js:1:855)",
+        "new ApplicationLoadBalancedFargateService2 (/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/jsii-kernel-xflZ8i/node_modules/aws-cdk-lib/aws-ecs-patterns/lib/fargate/application-load-balanced-fargate-service.js:1:6392)",
+        "new ApplicationLoadBalancedFargateService2 (/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/jsii-kernel-xflZ8i/node_modules/aws-cdk-lib/core/lib/prop-injectable.js:1:855)",
+        "Kernel._Kernel_create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:61273)",
+        "Kernel.create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:52004)",
+        "KernelHost.processRequest (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:212888)",
+        "KernelHost.run (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211943)",
+        "Immediate._onImmediate (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211987)",
+        "process.processImmediate (node:internal/timers:478:21)"
       ]
     }
   ],
@@ -415,12 +618,12 @@
       "type": "aws:cdk:creationStack",
       "data": [
         "...App.synth in aws-cdk-lib...",
-        "/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:543 (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:5434)",
-        "Kernel._Kernel_ensureSync (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:69992)",
-        "Kernel.invoke (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:54294)",
-        "KernelHost.processRequest (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:212888)",
-        "KernelHost.run (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:211943)",
-        "Immediate._onImmediate (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:211987)",
+        "/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:543 (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:5434)",
+        "Kernel._Kernel_ensureSync (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:69992)",
+        "Kernel.invoke (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:54294)",
+        "KernelHost.processRequest (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:212888)",
+        "KernelHost.run (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211943)",
+        "Immediate._onImmediate (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211987)",
         "...node internals..."
       ]
     }
@@ -434,11 +637,11 @@
       "type": "aws:cdk:creationStack",
       "data": [
         "...new Bucket2 in aws-cdk-lib...",
-        "Kernel._Kernel_create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:61273)",
-        "Kernel.create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:52004)",
-        "KernelHost.processRequest (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:212888)",
-        "KernelHost.run (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:211943)",
-        "Immediate._onImmediate (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:211987)",
+        "Kernel._Kernel_create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:61273)",
+        "Kernel.create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:52004)",
+        "KernelHost.processRequest (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:212888)",
+        "KernelHost.run (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211943)",
+        "Immediate._onImmediate (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211987)",
         "...node internals..."
       ]
     },
@@ -458,11 +661,11 @@
       "type": "aws:cdk:creationStack",
       "data": [
         "...new Bucket2 in aws-cdk-lib...",
-        "Kernel._Kernel_create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:61273)",
-        "Kernel.create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:52004)",
-        "KernelHost.processRequest (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:212888)",
-        "KernelHost.run (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:211943)",
-        "Immediate._onImmediate (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:211987)",
+        "Kernel._Kernel_create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:61273)",
+        "Kernel.create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:52004)",
+        "KernelHost.processRequest (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:212888)",
+        "KernelHost.run (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211943)",
+        "Immediate._onImmediate (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211987)",
         "...node internals..."
       ]
     }
@@ -476,12 +679,12 @@
       "type": "aws:cdk:creationStack",
       "data": [
         "...WrappedClass.grantRead in aws-cdk-lib...",
-        "/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:543 (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:5434)",
-        "Kernel._Kernel_ensureSync (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:69992)",
-        "Kernel.invoke (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:54294)",
-        "KernelHost.processRequest (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:212888)",
-        "KernelHost.run (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:211943)",
-        "Immediate._onImmediate (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:211987)",
+        "/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:543 (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:5434)",
+        "Kernel._Kernel_ensureSync (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:69992)",
+        "Kernel.invoke (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:54294)",
+        "KernelHost.processRequest (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:212888)",
+        "KernelHost.run (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211943)",
+        "Immediate._onImmediate (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211987)",
         "...node internals..."
       ]
     }
@@ -495,12 +698,12 @@
       "type": "aws:cdk:creationStack",
       "data": [
         "...WrappedClass.<anonymous> in aws-cdk-lib...",
-        "/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:543 (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:5434)",
-        "Kernel._Kernel_ensureSync (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:69992)",
-        "Kernel.invoke (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:54294)",
-        "KernelHost.processRequest (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:212888)",
-        "KernelHost.run (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:211943)",
-        "Immediate._onImmediate (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:211987)",
+        "/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:543 (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:5434)",
+        "Kernel._Kernel_ensureSync (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:69992)",
+        "Kernel.invoke (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:54294)",
+        "KernelHost.processRequest (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:212888)",
+        "KernelHost.run (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211943)",
+        "Immediate._onImmediate (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211987)",
         "...node internals..."
       ]
     }
@@ -514,11 +717,407 @@
       "type": "aws:cdk:creationStack",
       "data": [
         "...new StateMachine2 in aws-cdk-lib...",
-        "Kernel._Kernel_create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:61273)",
-        "Kernel.create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:52004)",
-        "KernelHost.processRequest (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:212888)",
-        "KernelHost.run (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:211943)",
-        "Immediate._onImmediate (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:211987)",
+        "Kernel._Kernel_create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:61273)",
+        "Kernel.create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:52004)",
+        "KernelHost.processRequest (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:212888)",
+        "KernelHost.run (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211943)",
+        "Immediate._onImmediate (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211987)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/MultiAgentStack/MultiAgentVpc/PublicSubnet1/Subnet": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MultiAgentVpcPublicSubnet1Subnet20035D74"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        ".../var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/jsii-kernel-xflZ8i/node_modules/aws-cdk-lib/aws-ec2/lib/vpc.js:1:257 in aws-cdk-lib...",
+        "Array.forEach (:)",
+        "...new Vpc2 in aws-cdk-lib...",
+        "Kernel._Kernel_create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:61273)",
+        "Kernel.create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:52004)",
+        "KernelHost.processRequest (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:212888)",
+        "KernelHost.run (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211943)",
+        "Immediate._onImmediate (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211987)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/MultiAgentStack/MultiAgentVpc/PublicSubnet1/RouteTable": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MultiAgentVpcPublicSubnet1RouteTableFE15E8A1"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        ".../var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/jsii-kernel-xflZ8i/node_modules/aws-cdk-lib/aws-ec2/lib/vpc.js:1:257 in aws-cdk-lib...",
+        "Array.forEach (:)",
+        "...new Vpc2 in aws-cdk-lib...",
+        "Kernel._Kernel_create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:61273)",
+        "Kernel.create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:52004)",
+        "KernelHost.processRequest (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:212888)",
+        "KernelHost.run (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211943)",
+        "Immediate._onImmediate (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211987)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/MultiAgentStack/MultiAgentVpc/PublicSubnet1/RouteTableAssociation": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MultiAgentVpcPublicSubnet1RouteTableAssociation83E919D5"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        ".../var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/jsii-kernel-xflZ8i/node_modules/aws-cdk-lib/aws-ec2/lib/vpc.js:1:257 in aws-cdk-lib...",
+        "Array.forEach (:)",
+        "...new Vpc2 in aws-cdk-lib...",
+        "Kernel._Kernel_create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:61273)",
+        "Kernel.create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:52004)",
+        "KernelHost.processRequest (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:212888)",
+        "KernelHost.run (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211943)",
+        "Immediate._onImmediate (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211987)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/MultiAgentStack/MultiAgentVpc/PublicSubnet1/DefaultRoute": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MultiAgentVpcPublicSubnet1DefaultRoute5DA258F1"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        ".../var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/jsii-kernel-xflZ8i/node_modules/aws-cdk-lib/aws-ec2/lib/vpc.js:1:197 in aws-cdk-lib...",
+        "Array.forEach (:)",
+        "...new Vpc2 in aws-cdk-lib...",
+        "Kernel._Kernel_create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:61273)",
+        "Kernel.create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:52004)",
+        "KernelHost.processRequest (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:212888)",
+        "KernelHost.run (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211943)",
+        "Immediate._onImmediate (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211987)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/MultiAgentStack/MultiAgentVpc/PublicSubnet2/Subnet": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MultiAgentVpcPublicSubnet2SubnetC9947838"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        ".../var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/jsii-kernel-xflZ8i/node_modules/aws-cdk-lib/aws-ec2/lib/vpc.js:1:257 in aws-cdk-lib...",
+        "Array.forEach (:)",
+        "...new Vpc2 in aws-cdk-lib...",
+        "Kernel._Kernel_create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:61273)",
+        "Kernel.create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:52004)",
+        "KernelHost.processRequest (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:212888)",
+        "KernelHost.run (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211943)",
+        "Immediate._onImmediate (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211987)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/MultiAgentStack/MultiAgentVpc/PublicSubnet2/RouteTable": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MultiAgentVpcPublicSubnet2RouteTable7711E0F2"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        ".../var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/jsii-kernel-xflZ8i/node_modules/aws-cdk-lib/aws-ec2/lib/vpc.js:1:257 in aws-cdk-lib...",
+        "Array.forEach (:)",
+        "...new Vpc2 in aws-cdk-lib...",
+        "Kernel._Kernel_create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:61273)",
+        "Kernel.create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:52004)",
+        "KernelHost.processRequest (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:212888)",
+        "KernelHost.run (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211943)",
+        "Immediate._onImmediate (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211987)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/MultiAgentStack/MultiAgentVpc/PublicSubnet2/RouteTableAssociation": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MultiAgentVpcPublicSubnet2RouteTableAssociation3AB12FBC"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        ".../var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/jsii-kernel-xflZ8i/node_modules/aws-cdk-lib/aws-ec2/lib/vpc.js:1:257 in aws-cdk-lib...",
+        "Array.forEach (:)",
+        "...new Vpc2 in aws-cdk-lib...",
+        "Kernel._Kernel_create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:61273)",
+        "Kernel.create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:52004)",
+        "KernelHost.processRequest (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:212888)",
+        "KernelHost.run (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211943)",
+        "Immediate._onImmediate (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211987)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/MultiAgentStack/MultiAgentVpc/PublicSubnet2/DefaultRoute": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MultiAgentVpcPublicSubnet2DefaultRoute25BAD355"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        ".../var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/jsii-kernel-xflZ8i/node_modules/aws-cdk-lib/aws-ec2/lib/vpc.js:1:197 in aws-cdk-lib...",
+        "Array.forEach (:)",
+        "...new Vpc2 in aws-cdk-lib...",
+        "Kernel._Kernel_create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:61273)",
+        "Kernel.create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:52004)",
+        "KernelHost.processRequest (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:212888)",
+        "KernelHost.run (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211943)",
+        "Immediate._onImmediate (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211987)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/MultiAgentStack/MultiAgentVpc/IsolatedSubnet1/Subnet": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MultiAgentVpcIsolatedSubnet1Subnet31C611B0"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        ".../var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/jsii-kernel-xflZ8i/node_modules/aws-cdk-lib/aws-ec2/lib/vpc.js:1:262 in aws-cdk-lib...",
+        "Array.forEach (:)",
+        "...new Vpc2 in aws-cdk-lib...",
+        "Kernel._Kernel_create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:61273)",
+        "Kernel.create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:52004)",
+        "KernelHost.processRequest (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:212888)",
+        "KernelHost.run (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211943)",
+        "Immediate._onImmediate (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211987)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/MultiAgentStack/MultiAgentVpc/IsolatedSubnet1/RouteTable": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MultiAgentVpcIsolatedSubnet1RouteTableAF1856FB"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        ".../var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/jsii-kernel-xflZ8i/node_modules/aws-cdk-lib/aws-ec2/lib/vpc.js:1:262 in aws-cdk-lib...",
+        "Array.forEach (:)",
+        "...new Vpc2 in aws-cdk-lib...",
+        "Kernel._Kernel_create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:61273)",
+        "Kernel.create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:52004)",
+        "KernelHost.processRequest (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:212888)",
+        "KernelHost.run (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211943)",
+        "Immediate._onImmediate (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211987)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/MultiAgentStack/MultiAgentVpc/IsolatedSubnet1/RouteTableAssociation": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MultiAgentVpcIsolatedSubnet1RouteTableAssociation05CC4617"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        ".../var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/jsii-kernel-xflZ8i/node_modules/aws-cdk-lib/aws-ec2/lib/vpc.js:1:262 in aws-cdk-lib...",
+        "Array.forEach (:)",
+        "...new Vpc2 in aws-cdk-lib...",
+        "Kernel._Kernel_create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:61273)",
+        "Kernel.create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:52004)",
+        "KernelHost.processRequest (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:212888)",
+        "KernelHost.run (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211943)",
+        "Immediate._onImmediate (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211987)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/MultiAgentStack/MultiAgentVpc/IsolatedSubnet2/Subnet": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MultiAgentVpcIsolatedSubnet2SubnetB5F4673E"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        ".../var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/jsii-kernel-xflZ8i/node_modules/aws-cdk-lib/aws-ec2/lib/vpc.js:1:262 in aws-cdk-lib...",
+        "Array.forEach (:)",
+        "...new Vpc2 in aws-cdk-lib...",
+        "Kernel._Kernel_create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:61273)",
+        "Kernel.create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:52004)",
+        "KernelHost.processRequest (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:212888)",
+        "KernelHost.run (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211943)",
+        "Immediate._onImmediate (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211987)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/MultiAgentStack/MultiAgentVpc/IsolatedSubnet2/RouteTable": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MultiAgentVpcIsolatedSubnet2RouteTable2B531E7E"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        ".../var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/jsii-kernel-xflZ8i/node_modules/aws-cdk-lib/aws-ec2/lib/vpc.js:1:262 in aws-cdk-lib...",
+        "Array.forEach (:)",
+        "...new Vpc2 in aws-cdk-lib...",
+        "Kernel._Kernel_create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:61273)",
+        "Kernel.create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:52004)",
+        "KernelHost.processRequest (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:212888)",
+        "KernelHost.run (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211943)",
+        "Immediate._onImmediate (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211987)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/MultiAgentStack/MultiAgentVpc/IsolatedSubnet2/RouteTableAssociation": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MultiAgentVpcIsolatedSubnet2RouteTableAssociation4637BC70"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        ".../var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/jsii-kernel-xflZ8i/node_modules/aws-cdk-lib/aws-ec2/lib/vpc.js:1:262 in aws-cdk-lib...",
+        "Array.forEach (:)",
+        "...new Vpc2 in aws-cdk-lib...",
+        "Kernel._Kernel_create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:61273)",
+        "Kernel.create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:52004)",
+        "KernelHost.processRequest (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:212888)",
+        "KernelHost.run (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211943)",
+        "Immediate._onImmediate (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211987)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/MultiAgentStack/EcsTaskRole/DefaultPolicy/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "EcsTaskRoleDefaultPolicy50882C77"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...WrappedClass.<anonymous> in aws-cdk-lib...",
+        "/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:543 (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:5434)",
+        "Kernel._Kernel_ensureSync (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:69992)",
+        "Kernel.invoke (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:54294)",
+        "KernelHost.processRequest (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:212888)",
+        "KernelHost.run (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211943)",
+        "Immediate._onImmediate (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211987)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/MultiAgentStack/EcsExecutionRole/DefaultPolicy/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "EcsExecutionRoleDefaultPolicy9114F99B"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...WrappedClass.<anonymous> in aws-cdk-lib...",
+        "/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:543 (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:5434)",
+        "Kernel._Kernel_ensureSync (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:69992)",
+        "Kernel.invoke (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:54294)",
+        "KernelHost.processRequest (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:212888)",
+        "KernelHost.run (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211943)",
+        "Immediate._onImmediate (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211987)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/MultiAgentStack/MultiAgentFargateService/LB/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MultiAgentFargateServiceLBB7ECFF48"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new ApplicationLoadBalancedFargateService2 in aws-cdk-lib...",
+        "Kernel._Kernel_create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:61273)",
+        "Kernel.create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:52004)",
+        "KernelHost.processRequest (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:212888)",
+        "KernelHost.run (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211943)",
+        "Immediate._onImmediate (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211987)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/MultiAgentStack/MultiAgentFargateService/TaskDef/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MultiAgentFargateServiceTaskDef3EE72DCE"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new ApplicationLoadBalancedFargateService2 in aws-cdk-lib...",
+        "Kernel._Kernel_create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:61273)",
+        "Kernel.create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:52004)",
+        "KernelHost.processRequest (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:212888)",
+        "KernelHost.run (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211943)",
+        "Immediate._onImmediate (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211987)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/MultiAgentStack/MultiAgentFargateService/TaskDef/web": [
+    {
+      "type": "aws:cdk:warning",
+      "data": "Proper policies need to be attached before pulling from ECR repository, or use 'fromEcrRepository'. [ack: @aws-cdk/aws-ecs:ecrImageRequiresPolicy]",
+      "trace": [
+        "Annotations.addMessage (/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/jsii-kernel-xflZ8i/node_modules/aws-cdk-lib/core/lib/annotations.js:1:2399)",
+        "Annotations.addWarningV2 (/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/jsii-kernel-xflZ8i/node_modules/aws-cdk-lib/core/lib/annotations.js:1:1087)",
+        "RepositoryImage.bind (/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/jsii-kernel-xflZ8i/node_modules/aws-cdk-lib/aws-ecs/lib/images/repository.js:1:1404)",
+        "new ContainerDefinition2 (/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/jsii-kernel-xflZ8i/node_modules/aws-cdk-lib/aws-ecs/lib/container-definition.js:1:7032)",
+        "new ContainerDefinition2 (/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/jsii-kernel-xflZ8i/node_modules/aws-cdk-lib/core/lib/no-box-stack-traces.js:1:345)",
+        "new ContainerDefinition2 (/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/jsii-kernel-xflZ8i/node_modules/aws-cdk-lib/core/lib/prop-injectable.js:1:855)",
+        "WrappedClass.addContainer (/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/jsii-kernel-xflZ8i/node_modules/aws-cdk-lib/aws-ecs/lib/base/task-definition.js:1:20274)",
+        "WrappedClass.<anonymous> (/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/jsii-kernel-xflZ8i/node_modules/aws-cdk-lib/core/lib/metadata-resource.js:1:2059)",
+        "new ApplicationLoadBalancedFargateService2 (/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/jsii-kernel-xflZ8i/node_modules/aws-cdk-lib/aws-ecs-patterns/lib/fargate/application-load-balanced-fargate-service.js:1:5109)",
+        "new ApplicationLoadBalancedFargateService2 (/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/jsii-kernel-xflZ8i/node_modules/aws-cdk-lib/core/lib/prop-injectable.js:1:855)",
+        "Kernel._Kernel_create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:61273)",
+        "Kernel.create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:52004)",
+        "KernelHost.processRequest (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:212888)",
+        "KernelHost.run (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211943)",
+        "Immediate._onImmediate (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211987)",
+        "process.processImmediate (node:internal/timers:478:21)"
+      ]
+    }
+  ],
+  "/MultiAgentStack/MultiAgentFargateService/Service/Service": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MultiAgentFargateService06A64C4B"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new ApplicationLoadBalancedFargateService2 in aws-cdk-lib...",
+        "Kernel._Kernel_create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:61273)",
+        "Kernel.create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:52004)",
+        "KernelHost.processRequest (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:212888)",
+        "KernelHost.run (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211943)",
+        "Immediate._onImmediate (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211987)",
         "...node internals..."
       ]
     }
@@ -532,11 +1131,137 @@
       "type": "aws:cdk:creationStack",
       "data": [
         "...new StateMachine2 in aws-cdk-lib...",
-        "Kernel._Kernel_create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:61273)",
-        "Kernel.create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:52004)",
-        "KernelHost.processRequest (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:212888)",
-        "KernelHost.run (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:211943)",
-        "Immediate._onImmediate (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmpqs6_21ph/lib/program.js:1:211987)",
+        "Kernel._Kernel_create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:61273)",
+        "Kernel.create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:52004)",
+        "KernelHost.processRequest (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:212888)",
+        "KernelHost.run (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211943)",
+        "Immediate._onImmediate (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211987)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/MultiAgentStack/MultiAgentFargateService/LB/SecurityGroup/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MultiAgentFargateServiceLBSecurityGroupC659C913"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new ApplicationLoadBalancedFargateService2 in aws-cdk-lib...",
+        "Kernel._Kernel_create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:61273)",
+        "Kernel.create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:52004)",
+        "KernelHost.processRequest (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:212888)",
+        "KernelHost.run (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211943)",
+        "Immediate._onImmediate (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211987)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/MultiAgentStack/MultiAgentFargateService/LB/SecurityGroup/to MultiAgentStackMultiAgentFargateServiceSecurityGroup8AC73ADA:8000": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MultiAgentFargateServiceLBSecurityGrouptoMultiAgentStackMultiAgentFargateServiceSecurityGroup8AC73ADA80006B1F56BA"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new ApplicationLoadBalancedFargateService2 in aws-cdk-lib...",
+        "Kernel._Kernel_create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:61273)",
+        "Kernel.create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:52004)",
+        "KernelHost.processRequest (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:212888)",
+        "KernelHost.run (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211943)",
+        "Immediate._onImmediate (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211987)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/MultiAgentStack/MultiAgentFargateService/LB/PublicListener/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MultiAgentFargateServiceLBPublicListenerAFD72B8E"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new ApplicationLoadBalancedFargateService2 in aws-cdk-lib...",
+        "Kernel._Kernel_create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:61273)",
+        "Kernel.create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:52004)",
+        "KernelHost.processRequest (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:212888)",
+        "KernelHost.run (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211943)",
+        "Immediate._onImmediate (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211987)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/MultiAgentStack/MultiAgentFargateService/Service/SecurityGroup/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MultiAgentFargateServiceSecurityGroupA4F4273E"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new ApplicationLoadBalancedFargateService2 in aws-cdk-lib...",
+        "Kernel._Kernel_create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:61273)",
+        "Kernel.create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:52004)",
+        "KernelHost.processRequest (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:212888)",
+        "KernelHost.run (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211943)",
+        "Immediate._onImmediate (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211987)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/MultiAgentStack/MultiAgentFargateService/Service/SecurityGroup/from MultiAgentStackMultiAgentFargateServiceLBSecurityGroupFDCACA18:8000": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MultiAgentFargateServiceSecurityGroupfromMultiAgentStackMultiAgentFargateServiceLBSecurityGroupFDCACA188000C9B7C98C"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new ApplicationLoadBalancedFargateService2 in aws-cdk-lib...",
+        "Kernel._Kernel_create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:61273)",
+        "Kernel.create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:52004)",
+        "KernelHost.processRequest (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:212888)",
+        "KernelHost.run (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211943)",
+        "Immediate._onImmediate (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211987)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/MultiAgentStack/MultiAgentFargateService/LB/PublicListener/ECSGroup/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MultiAgentFargateServiceLBPublicListenerECSGroup51FEBC85"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new ApplicationLoadBalancedFargateService2 in aws-cdk-lib...",
+        "Kernel._Kernel_create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:61273)",
+        "Kernel.create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:52004)",
+        "KernelHost.processRequest (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:212888)",
+        "KernelHost.run (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211943)",
+        "Immediate._onImmediate (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211987)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/MultiAgentStack/MultiAgentFargateService/TaskDef/web/LogGroup/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MultiAgentFargateServiceTaskDefwebLogGroup7C7D0E4D"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new ApplicationLoadBalancedFargateService2 in aws-cdk-lib...",
+        "Kernel._Kernel_create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:61273)",
+        "Kernel.create (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:52004)",
+        "KernelHost.processRequest (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:212888)",
+        "KernelHost.run (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211943)",
+        "Immediate._onImmediate (/private/var/folders/wq/z601knq13dj6nv3hwzym6lq80000gn/T/tmps6ff6w__/lib/program.js:1:211987)",
         "...node internals..."
       ]
     }

@@ -43,17 +43,17 @@ Report Delivered to User
 
 ## Screenshots
 
-### Research Pipeline — Live Demo
-![Pipeline](screenshots/screenshot_pipeline.png)
+### Streamlit UI/Research Pipeline
+![Streamlit UI](screenshots/streamlit_ui.png)
 
 ### Generated Reports in S3
-![Reports](screenshots/screenshot_reports.png)
+![Reports](screenshots/reports_tab.png)
 
 ### DynamoDB Session Checkpoints
-![Sessions](screenshots/screenshot_sessions.png)
+![Sessions](screenshots/session_tab.png)
 
 ### CloudWatch Observability Dashboard
-![CloudWatch](screenshots/screenshot_cloudwatch.png)
+![CloudWatch](screenshots/CloudWatch.png)
 
 ---
 
