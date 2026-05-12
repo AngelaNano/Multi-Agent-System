@@ -85,6 +85,7 @@ Report Delivered to User
 
 ## Project Structure
 
+```
 multi-agent-research-system/
 ├── infrastructure/
 │   └── stack.py          # CDK infrastructure — all AWS resources
@@ -101,6 +102,7 @@ multi-agent-research-system/
 ├── documents/           # Source documents uploaded to S3
 ├── app.py              # CDK app entry point
 └── cdk.json            # CDK configuration
+```
 
 ## Setup & Deployment
 
@@ -136,6 +138,9 @@ uvicorn backend.main:app --reload --port 8000
 
 # Terminal 2 — Streamlit frontend
 streamlit run frontend/app.py
+
+# Open browser
+http://localhost:8501
 ```
 
 ## API Endpoints
