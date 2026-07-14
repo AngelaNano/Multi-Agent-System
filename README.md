@@ -3,7 +3,6 @@
 ---
 
 **Live Demo:** https://angelanano-multi-agent-system.streamlit.app  
-**GitHub:** https://github.com/AngelaNano/Multi-Agent-System
 
 ---
 
